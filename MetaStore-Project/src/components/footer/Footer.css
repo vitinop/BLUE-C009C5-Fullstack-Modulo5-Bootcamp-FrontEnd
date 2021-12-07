@@ -1,0 +1,82 @@
+.footer{
+    height: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 5px  rgb(49, 49, 49);
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 8px;
+}
+
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 4px;
+    background-color: rgba(49, 49, 49, 0);
+
+}
+.home-icon p{
+    font-size: 12px;
+}
+.home-icon:hover{
+    box-shadow: 0.2rem 0.2rem 0.4rem red;
+    ;
+}
+.search-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.search-icon p{
+    font-size: 12px;
+}
+.sell-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.sell-icon p{
+    font-size: 12px;
+}
+.bag-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.bag-icon p{
+    font-size: 12px;
+}
+
+.profile-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.profile-icon p{
+    font-size: 12px;
+}
