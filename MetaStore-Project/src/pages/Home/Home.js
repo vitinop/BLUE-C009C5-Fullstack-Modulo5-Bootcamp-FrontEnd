@@ -1,4 +1,4 @@
-import Slider from '../../Components/Slider/Slider';
+import Slider from '../../components/Slider/Slider';
 import './Home.css';
 import { FiFacebook } from 'react-icons/fi';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './pages/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 
 ReactDOM.render(
