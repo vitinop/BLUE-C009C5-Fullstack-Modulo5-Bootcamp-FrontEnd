@@ -117,7 +117,7 @@ form input[type="submit"]:hover {
 }
 
 .conectionError { 
-    cursor: pointer;
+    
     text-align: center;
     padding-top: 1rem;
     color:  #e81123;
