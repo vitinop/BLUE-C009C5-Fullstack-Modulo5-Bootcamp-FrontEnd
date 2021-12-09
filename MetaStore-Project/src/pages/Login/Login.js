@@ -2,6 +2,7 @@ import "./Login.css";
 
 export default function login() {
   return (
+    <div className="center">
     <main className="loginContainer">
       <h2>Login</h2>
       <form action="">
@@ -25,20 +26,21 @@ export default function login() {
         </div>
         <div className="checkbox-keep-conected">
           <input type="checkbox" />
-          Keep Conected?
+          &nbsp;Keep Conected?
         </div>
         <div className="conectionError">
-          *Invalid username,email or password, please try again !
+          *Invalid username,email or password, please try again!
         </div>
         <input type="submit" value="Continue" />
 
-        <div className="missPassword">Forget your password?</div>
+        <div className="missPassword">Forgot your password?</div>
         <div className="createAccount">
-          Not a member ? It's free and easy to use.
+          Not a member? It's free and easy to use.
         </div>
         <a clasName="signInlink" href="#" id="to-register" aria-label="Cadastrar">Sign-In</a>
         
       </form>
     </main>
+    </div>
   );
 }
