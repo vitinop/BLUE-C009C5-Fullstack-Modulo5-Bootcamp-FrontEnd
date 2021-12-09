@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home.js";
 import Login from "./pages/Login/Login.js";
 import SignIn from "./pages/SignIn/SignIn.js"
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
+import Css from "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
