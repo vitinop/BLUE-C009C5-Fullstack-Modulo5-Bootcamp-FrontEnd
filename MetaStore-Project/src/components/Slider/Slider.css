@@ -1,28 +1,23 @@
-.slider{
-   
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h3{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     align-items: center;
-    border-radius: .3rem;
-}
-.slider-text{
-    font-size: 1.1rem ;
-    font-weight: 700;
-    text-decoration: double;
-    justify-content: right;
-} 
-
-/* .slider-text span{
-    font-size: 1.9rem ;
-    font-weight: 700;
-    display: flex;
-    justify-content: right;
- 
+    justify-content: center;
 }
 
-.btn-descubra{
+.slider{
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* .btn-descubra{
     background-color: white;
     border-radius: .4rem;
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.472);
@@ -32,11 +27,12 @@
     background: rgba(143, 2, 112, 0.452);
 } */
 
-.slider-image img{
+/* .slider-image img{
     width: 80%;
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.472);
     margin:100px 0 200px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
+
