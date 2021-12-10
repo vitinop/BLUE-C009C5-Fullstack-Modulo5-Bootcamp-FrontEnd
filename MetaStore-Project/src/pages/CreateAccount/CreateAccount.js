@@ -43,7 +43,7 @@ export default function CreateAccount() {
             <input type="checkbox" />
             &nbsp; I agree to the terms of the and conditions of the{" "}
             <a
-              clasName="subscriberAgreement"
+              className="subscriberAgreement"
               href="/subscriberAgreement"
               id="to-SubscriberAgreement"
               aria-label="subscriberAgreement"
@@ -51,9 +51,7 @@ export default function CreateAccount() {
               MetaStore Subscriber Agreement?
             </a>
           </div>
-          <div className="conectionError">
-            *Invalid username,email or password, please try again!
-          </div>
+          
           <input type="submit" value="Continue" />
         </form>
       </main>

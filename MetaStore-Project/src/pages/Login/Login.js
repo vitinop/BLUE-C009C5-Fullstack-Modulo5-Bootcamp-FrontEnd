@@ -33,7 +33,7 @@ export default function login() {
 
           <div className="passwordRecovery">
             <a
-              clasName="passwordRecoverylink"
+              className="passwordRecoverylink"
               href="/passwordRecovery"
               id="to-passwordRecovery"
               aria-label="password-recovery"
@@ -46,7 +46,7 @@ export default function login() {
             Not a member? It's free and easy to use.
           </div>
           <a
-            clasName="signUplink"
+            className="signUplink"
             href="/createAccount"
             id="to-register"
             aria-label="create-an-account"
