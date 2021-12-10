@@ -7,10 +7,6 @@ export default function Slider(){
     return(
         <div className='center-slider'>
         <div className='slider'>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6e4f21affaad786d59aa94eecb938b3b2bf692a9
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
