@@ -128,28 +128,24 @@
     font-size: 0.8rem;
     font-weight: 600;
 }
+.loginContainer a{
+    color: #4776E6;
+    text-decoration: none;
+}
+.loginContainer a:hover
+    {opacity: 0.6}
 
-
-.missPassword{
-    cursor: pointer;
+.passwordRecovery{
+    padding-top: 1rem;
+}
+.createAccountText{
     text-align: center;
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
     font-weight: 600;
 }
-.missPassword:hover{
-    color: rgba(0, 0, 0, 0.7);
 
-}
-
-.createAccount{
-    text-align: center;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
-    font-weight: 600;
-}
 
 
 
