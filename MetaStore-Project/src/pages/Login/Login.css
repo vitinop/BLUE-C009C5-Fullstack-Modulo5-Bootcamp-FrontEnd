@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,8 @@
 
 }
 
-.loginContainer{
+.loginContainer {
+    max-width: 455px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +58,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .loginContainer form {
     display: flex;
     flex-direction: column;
@@ -94,7 +97,7 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-form input[type="submit"] {
+.loginContainer form input[type="submit"] {
     margin-top: 2rem;
     padding: 0.4rem;
     width: 100%;
@@ -107,12 +110,12 @@ form input[type="submit"] {
     transition: all 0.3s ease;
 }
 
-form input[type="submit"]:hover {
+.loginContainer form input[type="submit"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.checkbox-keep-conected{
+.checkbox-keep-conected {
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
@@ -120,43 +123,32 @@ form input[type="submit"]:hover {
     margin: 10px;
 }
 
-.conectionError { 
-    
+.conectionError {
+
     text-align: center;
     padding-top: 1rem;
-    color:  #e81123;
+    color: #e81123;
     font-size: 0.8rem;
     font-weight: 600;
 }
 
-
-.missPassword{
-    cursor: pointer;
-    text-align: center;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-.missPassword:hover{
-    color: rgba(0, 0, 0, 0.7);
-
-}
-
-.createAccount{
-    cursor: pointer;
-    text-align: center;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-.createAccount:hover{
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.signInlink a{
-    
+.loginContainer a {
+    color: #4776E6;
     text-decoration: none;
-    
+}
+
+.loginContainer a:hover {
+    opacity: 0.6
+}
+
+.passwordRecovery {
+    padding-top: 1rem;
+}
+
+.createAccountText {
+    text-align: center;
+    padding-top: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+    font-weight: 600;
 }

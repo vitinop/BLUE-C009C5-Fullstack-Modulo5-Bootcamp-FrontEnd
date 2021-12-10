@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.center{
+.center-CreateAccount {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,8 @@
 
 }
 
-.loginContainer{
+.createAccountContainer {
+    max-width: 455px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +28,7 @@
 }
 
 
-.loginContainer.container {
+.createAccountContainer.container {
     background: white;
     min-width: 320px;
     min-height: 40vh;
@@ -34,7 +36,7 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.loginContainer h2 {
+.createAccountContainer h2 {
     font-weight: 600;
     margin-bottom: 2rem;
     position: relative;
@@ -43,7 +45,7 @@
     justify-content: center;
 }
 
-.loginContainer h2::before {
+.createAccountContainer h2::before {
     content: '';
     position: absolute;
     height: 0.26rem;
@@ -56,14 +58,15 @@
     align-items: center;
     justify-content: center;
 }
-.loginContainer form {
+
+.createAccountContainer form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.input-field {
+.input-field-CreateAcc {
     width: 100%;
     position: relative;
     display: flex;
@@ -77,12 +80,7 @@
     padding: 10px;
 }
 
-.loginContainer form .input-field:first-child {
-    margin-bottom: 1.5rem;
-}
-
-
-.input-field input {
+.input-field-CreateAcc input {
     outline: none;
     font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.7);
@@ -90,11 +88,11 @@
     background-color: whitesmoke;
 }
 
-.input-field input::placeholder {
+.input-field-CreateAcc input::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
 
-form input[type="submit"] {
+.createAccountContainer form input[type="submit"] {
     margin-top: 2rem;
     padding: 0.4rem;
     width: 100%;
@@ -107,56 +105,23 @@ form input[type="submit"] {
     transition: all 0.3s ease;
 }
 
-form input[type="submit"]:hover {
+.createAccountContainer form input[type="submit"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.checkbox-keep-conected{
+.checkbox-agree {
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
     font-weight: 600;
     margin: 10px;
 }
-
-.conectionError { 
-    
-    text-align: center;
-    padding-top: 1rem;
-    color:  #e81123;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-
-.missPassword{
-    cursor: pointer;
-    text-align: center;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-.missPassword:hover{
-    color: rgba(0, 0, 0, 0.7);
-
-}
-
-.createAccount{
-    cursor: pointer;
-    text-align: center;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-.createAccount:hover{
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.signInlink a{
-    
+.createAccountContainer a {
+    color: #4776E6;
     text-decoration: none;
-    
+}
+
+.createAccountContainer a:hover {
+    opacity: 0.6
 }
