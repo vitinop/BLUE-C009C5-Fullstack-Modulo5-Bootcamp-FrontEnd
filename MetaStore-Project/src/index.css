@@ -2,6 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Source Code Pro', monospace;
+    
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 8px;
+  background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(9,166,250,1) 0%, rgba(218,65,147,1) 50%, rgba(108,13,202,1) 100%);
+}
+
+::-webkit-scrollbar-corner {
+  background: whitesmoke;
 }
