@@ -7,3 +7,16 @@
     
 
 } */
+
+h3{
+    padding: 10px;
+}
+
+.midias{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+}

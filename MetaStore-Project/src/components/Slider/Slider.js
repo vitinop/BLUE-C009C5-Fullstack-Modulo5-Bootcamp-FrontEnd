@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Slider(){
 
     return(
+        <div className='center-slider'>
         <div className='slider'>
-                <h3>"Todos os metaversos em um único lugar"</h3>
 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -29,6 +29,7 @@ export default function Slider(){
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+        </div>
         </div>
 
     )

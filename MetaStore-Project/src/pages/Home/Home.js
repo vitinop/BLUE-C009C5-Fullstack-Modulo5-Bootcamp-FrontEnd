@@ -11,13 +11,12 @@ export default function Home() {
       <Slider />
 
       <div className="midias">
-        <FiFacebook />
-        <FaInstagram />
-        <MdOutlineEmail />
-        <FaWhatsapp />
+        <FiFacebook />&nbsp;
+        <FaInstagram />&nbsp;
+        <MdOutlineEmail />&nbsp;
+        <FaWhatsapp />&nbsp;
+        <p><span>Direitos autorais metastore&copy; - 2021 </span></p>
       </div>
-
-      <span>Direitos autorais metastore&copy; - 2021 </span>
     </div>
   );
 }

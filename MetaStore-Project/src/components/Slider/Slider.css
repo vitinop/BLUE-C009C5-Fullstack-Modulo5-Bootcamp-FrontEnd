@@ -14,7 +14,16 @@ h3{
 .slider{
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 60%;
+    padding: 2rem;
+}
+
+.center-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
 }
 
 /* .btn-descubra{
