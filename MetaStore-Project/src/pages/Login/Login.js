@@ -31,9 +31,14 @@ export default function login() {
           </div>
           <input type="submit" value="Continue" />
 
-          <div className="missPassword">Forgot your password?</div>
+          <div className="passwordRecovery"> <a
+            clasName="passwordRecoverylink"
+            href="/passwordRecovery"
+            id="to-passwordRecovery"
+            aria-label="password-recovery"
+          >Forgot your password?</a></div>
 
-          <div className="createAccount">
+          <div className="createAccountText">
             Not a member? It's free and easy to use.
           </div>
           <a
