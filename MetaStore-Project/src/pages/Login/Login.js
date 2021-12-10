@@ -32,7 +32,6 @@ export default function login() {
           <input type="submit" value="Continue" />
 
           <div className="passwordRecovery">
-            {" "}
             <a
               clasName="passwordRecoverylink"
               href="/passwordRecovery"
