@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.center-CreateAccount{
+.center-CreateAccount {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,7 @@
 
 }
 
-.createAccountContainer{
+.createAccountContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +57,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .createAccountContainer form {
     display: flex;
     flex-direction: column;
@@ -112,14 +114,10 @@
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.checkbox-agree{
+.checkbox-agree {
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
     font-weight: 600;
     margin: 10px;
 }
-
-
-
-

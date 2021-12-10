@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,7 @@
 
 }
 
-.loginContainer{
+.loginContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +57,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .loginContainer form {
     display: flex;
     flex-direction: column;
@@ -112,7 +114,7 @@
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.checkbox-keep-conected{
+.checkbox-keep-conected {
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
@@ -120,32 +122,32 @@
     margin: 10px;
 }
 
-.conectionError { 
-    
+.conectionError {
+
     text-align: center;
     padding-top: 1rem;
-    color:  #e81123;
+    color: #e81123;
     font-size: 0.8rem;
     font-weight: 600;
 }
-.loginContainer a{
+
+.loginContainer a {
     color: #4776E6;
     text-decoration: none;
 }
-.loginContainer a:hover
-    {opacity: 0.6}
 
-.passwordRecovery{
+.loginContainer a:hover {
+    opacity: 0.6
+}
+
+.passwordRecovery {
     padding-top: 1rem;
 }
-.createAccountText{
+
+.createAccountText {
     text-align: center;
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
     font-weight: 600;
 }
-
-
-
-
