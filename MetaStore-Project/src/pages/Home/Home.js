@@ -7,6 +7,7 @@ import { MdOutlineEmail } from "react-icons/md";
 export default function Home() {
   return (
     <div classname="home">
+      <h3>"Todos os metaversos em um único lugar"</h3>
       <Slider />
 
       <div className="midias">
