@@ -1,12 +1,12 @@
 import "./CreateAccount.css";
 
 export default function CreateAccount() {
-    return (
-      <div className="center">
-      <main className="loginContainer">
+  return (
+    <div className="center-CreateAccount">
+      <main className="createAccountContainer">
         <h2>Create an account</h2>
         <form action="">
-          <div className="input-field">
+          <div className="input-field-CreateAcc">
             <input
               type="text"
               name="username"
@@ -14,45 +14,49 @@ export default function CreateAccount() {
               placeholder="Enter your Username"
             />
           </div>
-          <div className="input-field">
+          <div className="input-field-CreateAcc">
             <input
               type="email"
               name="e-mail"
               id="e-mail"
               placeholder="Enter your E-mail"
             />
-            
           </div>
-          <div className="input-field">
+          <div className="input-field-CreateAcc">
             <input
               type="password"
               name="password"
               id="password"
               placeholder="Enter Your Password"
             />
-           
           </div>
-          <div className="input-field">
+          <div className="input-field-CreateAcc">
             <input
               type="password"
               name="passwordConfirmation"
               id="passwordConfirmation"
               placeholder="Corfim the Password"
             />
-           
           </div>
-          
-          <div className="checkbox-keep-conected">
-          I agree to the terms of the and conditions of the <a clasName="subscriberAgreement" href="/subscriberAgreement" id="to-SubscriberAgreement" aria-label="subscriberAgreement">MetaStore Subscriber Agreement?</a>&nbsp;
+
+          <div className="checkbox-agree">
             <input type="checkbox" />
+            &nbsp; I agree to the terms of the and conditions of the{" "}
+            <a
+              clasName="subscriberAgreement"
+              href="/subscriberAgreement"
+              id="to-SubscriberAgreement"
+              aria-label="subscriberAgreement"
+            >
+              MetaStore Subscriber Agreement?
+            </a>
           </div>
           <div className="conectionError">
             *Invalid username,email or password, please try again!
           </div>
           <input type="submit" value="Continue" />
-                 
         </form>
       </main>
-      </div>
-    );
-  }
+    </div>
+  );
+}

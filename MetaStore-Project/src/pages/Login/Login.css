@@ -94,7 +94,7 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-.input-field form input[type="submit"] {
+.loginContainer form input[type="submit"] {
     margin-top: 2rem;
     padding: 0.4rem;
     width: 100%;
@@ -107,7 +107,7 @@
     transition: all 0.3s ease;
 }
 
-.input-field form input[type="submit"]:hover {
+.loginContainer form input[type="submit"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
