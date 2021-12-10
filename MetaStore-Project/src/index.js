@@ -1,3 +1,4 @@
+import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +9,6 @@ import Login from "./pages/Login/Login.js";
 import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import Equipe from "./pages/Equipe/Equipe";
-
 
 ReactDOM.render(
   <React.StrictMode>
