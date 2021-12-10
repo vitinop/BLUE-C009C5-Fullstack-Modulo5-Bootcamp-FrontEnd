@@ -13,7 +13,7 @@ export default function login() {
             id="username"
             placeholder="Enter Your Username or E-mail"
           />
-          <div className="underline"></div>
+          
         </div>
         <div className="input-field">
           <input
@@ -22,7 +22,7 @@ export default function login() {
             id="password"
             placeholder="Enter Your Password"
           />
-          <div className="underline"></div>
+         
         </div>
         <div className="checkbox-keep-conected">
           <input type="checkbox" />

@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home/Home.js";
 import Login from "./pages/Login/Login.js";
-import SignIn from "./pages/SignIn/SignIn.js"
+import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import Css from "./index.css";
 
@@ -16,8 +16,8 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/password-recovery" element={<PasswordRecovery />} />
+        <Route path="/createAccount" element={<CreateAccount />} />
+        <Route path="/passwordRecovery" element={<PasswordRecovery />} />
       </Routes>
     </BrowserRouter>
     <Footer />
