@@ -6,8 +6,6 @@ export default function Slider(){
 
     return(
         <div className='slider'>
-                <h3>"Todos os metaversos em um único lugar"</h3>
-
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">

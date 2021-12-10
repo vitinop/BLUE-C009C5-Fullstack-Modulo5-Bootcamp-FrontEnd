@@ -37,7 +37,7 @@ export default function login() {
         <div className="createAccount">
           Not a member? It's free and easy to use.
         </div>
-        <a clasName="signInlink" href="#" id="to-register" aria-label="Cadastrar">Sign-In</a>
+        <a clasName="signInlink" href="/" id="to-register" aria-label="Cadastrar">Sign-In</a>
         
       </form>
     </main>
