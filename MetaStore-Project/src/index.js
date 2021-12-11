@@ -12,7 +12,6 @@ import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import PasswordRecoveryCheckout from "./pages/PasswordRecovery/PasswordRecoveryCheckout.js";
 import PasswordRecoveryAuthorizedChange from "./pages/PasswordRecovery/PasswordRecoveryAuthorizedChange.js";
 import Team from "./pages/Team/Team";
-import Catalog from "./components/Catalog/Catalog";
 import Friends from "./pages/Friends/Friends";
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions';
 import SignLanguage from './components/SignLanguage/SignLanguage';
