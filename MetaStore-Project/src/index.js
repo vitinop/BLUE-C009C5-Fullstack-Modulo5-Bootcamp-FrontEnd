@@ -11,6 +11,7 @@ import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import PasswordRecoveryCheckout from "./pages/PasswordRecovery/PasswordRecoveryCheckout.js";
 import PasswordRecoveryAuthorizedChange from "./pages/PasswordRecovery/PasswordRecoveryAuthorizedChange.js";
+import PasswordChangePassword from "./pages/PasswordRecovery/PasswordChangePassword.js";
 import Team from "./pages/Team/Team";
 import Friends from "./pages/Friends/Friends";
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions';
@@ -28,7 +29,8 @@ ReactDOM.render(
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordRecovery" element={<PasswordRecovery />} />
         <Route path="/passwordRecovery/checkout" element={<PasswordRecoveryCheckout />} />
-        <Route path="/passwordRecovery/authorizedchange" element={<PasswordRecoveryAuthorizedChange />} />
+        <Route path="/passwordRecovery/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
+        <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
         <Route path="/team" element={<Team />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/friends" element={<Friends />} />

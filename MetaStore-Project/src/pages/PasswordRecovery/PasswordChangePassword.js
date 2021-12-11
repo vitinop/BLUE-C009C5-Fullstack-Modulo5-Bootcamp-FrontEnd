@@ -1,13 +1,23 @@
 import "./PasswordRecovery.css";
 
-export default function PasswordRecoveryAuthorizedChange() {
+export default function PasswordRecoveryChangePassword() {
   return (
     <div className="center-passwordRecovery">
       <main className="passwordRecoveryContainer">
-        <h2>Create new password</h2>
+        <h2>Change Password</h2>
 
-        <p>Your new password must be different from your previous password</p>
         <form action="">
+          Old Password
+          <div className="input-field-passwordRecovery">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <br/> <br/> <br/> 
+
           New Password
           <div className="input-field-passwordRecovery">
             <input
@@ -29,9 +39,7 @@ export default function PasswordRecoveryAuthorizedChange() {
               placeholder="Enter Your Password"
             />
           </div>
-          <div className="passwordRecoveryText"> 
-          Both passwords mustmach.
-          </div>
+          <div className="passwordRecoveryText">Both passwords mustmach.</div>
           <input type="submit" value="Continue" />
         </form>
       </main>
