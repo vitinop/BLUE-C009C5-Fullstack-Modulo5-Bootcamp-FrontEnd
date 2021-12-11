@@ -22,6 +22,7 @@ export default function CreateAccount() {
               placeholder="Enter your E-mail"
             />
           </div>
+          Password
           <div className="input-field-CreateAcc">
             <input
               type="password"
@@ -30,6 +31,10 @@ export default function CreateAccount() {
               placeholder="Enter Your Password"
             />
           </div>
+          <div className="passwordRecoveryText">
+            Must be at least 8 charaters.
+          </div>
+          Password Confirmation
           <div className="input-field-CreateAcc">
             <input
               type="password"
@@ -37,6 +42,9 @@ export default function CreateAccount() {
               id="passwordConfirmation"
               placeholder="Corfim the Password"
             />
+          </div>
+          <div className="passwordRecoveryText"> 
+          Both passwords mustmach.
           </div>
 
           <div className="checkbox-agree">
