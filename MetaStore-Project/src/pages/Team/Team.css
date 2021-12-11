@@ -1,0 +1,9 @@
+.team-father{
+    width: 80%;
+    height: auto;
+    margin: 5rem;
+}
+
+.team-description{
+    display: flex;
+}
