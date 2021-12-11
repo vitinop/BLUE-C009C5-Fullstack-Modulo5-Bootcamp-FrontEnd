@@ -1,5 +1,5 @@
 import './Catalog.css';
-import { FaArrowUp } from 'react-icons/fa';
+import { BsArrowUpCircle } from 'react-icons/bs';
 import Slider from '../Slider/Slider';
 import Card from '../Card/Card';
 
@@ -31,7 +31,7 @@ export default function ProfileMetaversos(){
                 
             </div>
             <div className='catalog-icon'>
-                <FaArrowUp />
+                <BsArrowUpCircle />
             </div>
     </div>
     )
