@@ -9,6 +9,7 @@ import videoVictor from "./Avatares/videoVictor.mp4";
 
 export default function Equipe() {
     return(
+        <div className='center-all'>
         <div className='team-father'>
             
             <div className='team-description'>
@@ -74,8 +75,21 @@ export default function Equipe() {
                     <FaWhatsapp />
                 </div>
             </div>
-            <BsArrowUpCircle />
 
+            <div className='team-description'>
+                <video width="320" height="240" controls>
+                    <source src={videoVictor} type="video/mp4"/>
+                </video>
+                <div className="media-description">
+                    <h3>Descrição</h3>
+                    <FiFacebook />
+                    <FaInstagram />
+                    <MdOutlineEmail />
+                    <FaWhatsapp />
+                </div>
+            </div>
+        </div>
+        <BsArrowUpCircle />
         </div>
     )    
 }
