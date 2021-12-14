@@ -16,6 +16,11 @@ import Team from "./pages/Team/Team";
 import Friends from "./pages/Friends/Friends";
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions';
 import SignLanguage from './components/SignLanguage/SignLanguage';
+import SalesDescription from './pages/Sales/SalesDescription.js';
+import SalesMetaverse from './pages/Sales/SalesMetaverse.js';
+import SalesCategories from './pages/Sales/SalesCategories.js';
+import SalesPrice from './pages/Sales/SalesPrice.js';
+
 
 
 
@@ -35,6 +40,10 @@ ReactDOM.render(
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/friends" element={<Friends />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />
+        <Route path="/salesDescription" element={<SalesDescription />} />
+        <Route path="/salesMetaverse" element={<SalesMetaverse />} />
+        <Route path="/salesCategories" element={<SalesCategories />} />
+        <Route path="/salesPrice" element={<SalesPrice />} />
       </Routes>
     </BrowserRouter>
     <SignLanguage />
