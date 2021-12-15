@@ -1,0 +1,7 @@
+.arrowUp-father{
+    position:fixed;
+    background-color: red;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 50px;
+}

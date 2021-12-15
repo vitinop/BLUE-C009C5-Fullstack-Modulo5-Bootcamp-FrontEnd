@@ -21,7 +21,12 @@ import SalesMetaverse from './pages/Sales/SalesMetaverse.js';
 import SalesCategories from './pages/Sales/SalesCategories.js';
 import SalesPrice from './pages/Sales/SalesPrice.js';
 import Myaccount from './pages/Myaccount/Myaccount.js';
-
+import Product from './components/Product/Product';
+import ArrowUp from './components/ArrowUp/ArrowUp';
+import Modal3D from './pages/Modal3D/Modal3D.js';
+import Search from './pages/Search/Search.js';
+import RecentSearch from './pages/Search/RecentSearch.js';
+import ItemSearch from './pages/Search/ItemSearch.js';
 
 
 ReactDOM.render(
@@ -45,8 +50,15 @@ ReactDOM.render(
         <Route path="/salesMetaverse" element={<SalesMetaverse />} />
         <Route path="/salesCategories" element={<SalesCategories />} />
         <Route path="/salesPrice" element={<SalesPrice />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/modal3d" element={<Modal3D />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/recentSearch" element={<RecentSearch />} />
+        <Route path="/itemSearch" element={<ItemSearch />} />
+
       </Routes>
     </BrowserRouter>
+    <ArrowUp />
     <SignLanguage />
     <Footer />
   </React.StrictMode>,
