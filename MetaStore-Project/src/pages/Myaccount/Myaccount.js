@@ -4,7 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 import { IoIosLogOut } from "react-icons/io";
 import { BsWallet, BsGear } from "react-icons/bs";
 import { BiPurchaseTag, BiDollar, BiHeart } from "react-icons/bi";
-import { LogoutModal } from './LogoutModal'
+
 
 export default function Myaccount() {
   return (
@@ -63,7 +63,7 @@ export default function Myaccount() {
       </div>
       
       <div className="container-userOptions">
-        <li><LogoutModal/></li> <IoIosLogOut />
+        <li>Atalho pra modal de logout</li> <IoIosLogOut />
       </div>
       
     </div>
