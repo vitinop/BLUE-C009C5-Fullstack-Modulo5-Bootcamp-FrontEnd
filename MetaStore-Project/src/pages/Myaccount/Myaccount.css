@@ -1,0 +1,56 @@
+.center-myaccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.container-userOptions{ 
+    
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    max-width: 455px;
+    min-width: 255px;
+    height: 30px;
+    padding: 1rem;
+    margin: 0.2rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-userOptions:hover {
+    opacity: 0.8;
+}
+.profilePicture img{
+    margin: 1rem;
+    width: 90px;
+    height: auto;
+}
+.myaccount-top{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-Showcase{
+    font-size: 0.6rem;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    max-width: 255px;
+    height: 30px;
+    padding: 1rem;
+    margin: 0.2rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-Showcase{
+    opacity: 0.8;
+}
+
