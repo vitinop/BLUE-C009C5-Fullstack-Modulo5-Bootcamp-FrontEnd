@@ -29,6 +29,10 @@ import MetaverseRelations from './pages/Metaverse/MetaverseRelations';
 import MetaverseConcept from './pages/Metaverse/MetaverseConcept';
 import CategoriesRelations from './pages/Categories/CategoriesRelations';
 import SubCategoriesRelations from './pages/SubCategories/SubCategoriesRelations';
+import MetaverseCatalog from './pages/Metaverse/MetaverseCatalog';
+import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
+import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
+import UserCatalog from './pages/UserCatalog/UserCatalog';
 
 
 
@@ -61,10 +65,11 @@ ReactDOM.render(
         <Route path="/metaverseConcept" element={<MetaverseConcept />} />
         <Route path="/categoriesRelations" element={<CategoriesRelations />} />
         <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />
+        <Route path="/metaverseCatalog" element={<MetaverseCatalog />} />
+        <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />
+        <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />
+        <Route path="/userCatalog" element={<UserCatalog />} />
 
-
-
-        
 
       </Routes>
     </BrowserRouter>
