@@ -20,7 +20,7 @@ import SalesDescription from './pages/Sales/SalesDescription.js';
 import SalesMetaverse from './pages/Sales/SalesMetaverse.js';
 import SalesCategories from './pages/Sales/SalesCategories.js';
 import SalesPrice from './pages/Sales/SalesPrice.js';
-
+import Myaccount from './pages/Myaccount/Myaccount.js';
 
 
 
@@ -36,6 +36,7 @@ ReactDOM.render(
         <Route path="/passwordRecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/passwordRecovery/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
+        <Route path="/myaccount" element={<Myaccount />} />
         <Route path="/team" element={<Team />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/friends" element={<Friends />} />
