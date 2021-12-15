@@ -1,10 +1,10 @@
 import "./Myaccount.css";
-import { AiOutlineUsergroupAdd } from "react-icons/ai";
+import { AiOutlineUsergroupAdd, AiOutlineNotification } from "react-icons/ai";
 import { FaRegUser } from "react-icons/fa";
 import { IoIosLogOut } from "react-icons/io";
 import { BsWallet, BsGear } from "react-icons/bs";
 import { BiPurchaseTag, BiDollar, BiHeart } from "react-icons/bi";
-
+import LogoutModal from "./Modal/LogoutModal";
 
 export default function Myaccount() {
   return (
@@ -16,21 +16,21 @@ export default function Myaccount() {
             alt="User's ProfilePicture"
           ></img>
         </div>
-        <div className="profileInformation">Hi,User!
-        <div className="container-Showcase">
-        <a
-          className=""
-          href="/myaccount/personal-data"
-          id="to-personal-data"
-          aria-label="password-recovery-checkout"
-        >
-          <li>Seller's Showcase </li>{" "}
-        </a>
-        <FaRegUser />
-      </div></div>
-        
+        <div className="profileInformation">
+          Hi,User!
+          <div className="container-Showcase">
+            <a
+              className=""
+              href="/myaccount/personal-data"
+              id="to-personal-data"
+              aria-label="password-recovery-checkout"
+            >
+              <li>Seller's Showcase </li>{" "}
+            </a>
+            <FaRegUser />
+          </div>
+        </div>
       </div>
-     
 
       <div className="container-userOptions">
         <a
@@ -53,6 +53,12 @@ export default function Myaccount() {
         <li>My Purchases</li> <BiPurchaseTag />
       </div>
       <div className="container-userOptions">
+        <li>My Purchases</li> <BiPurchaseTag />
+      </div>
+      <div className="container-userOptions">
+        <li>My Ads</li> <AiOutlineNotification />
+      </div>
+      <div className="container-userOptions">
         <li>Favorite Itens</li> <BiHeart />
       </div>
       <div className="container-userOptions">
@@ -61,11 +67,13 @@ export default function Myaccount() {
       <div className="container-userOptions">
         <li>Account settings</li> <BsGear />
       </div>
-      
+
       <div className="container-userOptions">
-        <li>Atalho pra modal de logout</li> <IoIosLogOut />
+        <li>
+          <LogoutModal />
+        </li>{" "}
+        <IoIosLogOut />
       </div>
-      
     </div>
   );
 }
