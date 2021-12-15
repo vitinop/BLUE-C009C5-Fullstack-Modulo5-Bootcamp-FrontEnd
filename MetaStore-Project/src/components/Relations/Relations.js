@@ -5,7 +5,7 @@ export default function Relations(){
     return(
         <div className='relations-father'>
             <div className='relations-title'>
-                <h3>Nome do catálogo</h3>
+                <h3>Nome da relação</h3>
             </div>
 
             <div className='relations-item'>
