@@ -33,7 +33,7 @@ import MetaverseCatalog from './pages/Metaverse/MetaverseCatalog';
 import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
-
+import MySells from './pages/Myaccount/MySells/MySells';
 
 
 
@@ -49,6 +49,7 @@ ReactDOM.render(
         <Route path="/passwordRecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/passwordRecovery/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
+        <Route path="/myaccount/MySells" element={<MySells />} />
         <Route path="/myaccount" element={<Myaccount />} />
         <Route path="/team" element={<Team />} />
         <Route path="/friends" element={<Friends />} />

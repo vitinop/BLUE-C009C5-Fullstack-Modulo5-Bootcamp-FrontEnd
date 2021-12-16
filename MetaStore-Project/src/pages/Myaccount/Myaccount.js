@@ -9,7 +9,7 @@ import LogoutModal from "./Modal/LogoutModal";
 export default function Myaccount() {
   return (
     <div className="center-myaccount">
-      <div className="myaccount-top">
+      <div className="myaccount-links">
         <div className="profilePicture">
           <img
             src="https://iconape.com/wp-content/files/md/247797/png/republic-of-gamers-new-logo.png"
@@ -48,9 +48,6 @@ export default function Myaccount() {
       </div>
       <div className="container-userOptions">
         <li>My Sells </li> <BiDollar />
-      </div>
-      <div className="container-userOptions">
-        <li>My Purchases</li> <BiPurchaseTag />
       </div>
       <div className="container-userOptions">
         <li>My Purchases</li> <BiPurchaseTag />
