@@ -1,0 +1,29 @@
+.center-mysells{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+.itemPicture img{
+    width: 100px;
+    height: 100px ;
+
+}
+.itemName{
+    padding: 0.4rem;
+    text-align: center;
+}
+.itemSold{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemInformation{
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
