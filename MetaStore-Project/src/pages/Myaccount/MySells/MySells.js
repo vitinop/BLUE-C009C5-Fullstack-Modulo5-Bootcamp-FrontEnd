@@ -13,7 +13,7 @@ export default function MySells() {
           ></img>
         </div>
         <div className="itemInfo">
-          <div className="itemname">Iteaaaaaas</div>
+          <div className="itemname">Itens</div>
           <br/>
           <div>Item value</div>
         </div>
