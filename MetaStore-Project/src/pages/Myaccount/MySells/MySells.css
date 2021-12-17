@@ -1,29 +1,28 @@
-.center-mysells{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin-bottom: 3rem;
-}
-.itemPicture img{
-    width: 100px;
-    height: 100px ;
-
-}
-.itemName{
-    padding: 0.4rem;
-    text-align: center;
-}
-.itemSold{
-    display: flex;
-    flex-direction: column;
+.center-mysells {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 3rem;
 }
 
-.itemInformation{
-    padding: 0.4rem;
+.itemSold {
+    width:25rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.itemname{
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.itemPicture img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
 }

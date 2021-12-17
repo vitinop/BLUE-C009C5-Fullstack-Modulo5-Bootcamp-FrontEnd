@@ -6,21 +6,20 @@ export default function MySells() {
     <div className="center-myaccount">
       My sells
       <div className="itemSold">
-        <div className="itemName">
-          Item Name
-          <div className="itemPicture">
-            <img
-              src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg"
-              alt="item's ProfilePicture"
-            ></img>
-          </div>
-          <BsPlus/>
+        <div className="itemPicture">
+          <img
+            src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg"
+            alt="item's ProfilePicture"
+          ></img>
         </div>
-        <div className="itemInformation">
-          <div className="itemValue">
-            U$D XXX,XX
-          </div>
+        <div className="itemInfo">
+          <div className="itemname">Itens</div>
+          <br/>
+          <div>Item value</div>
         </div>
+        <BsPlus size={40} />
+
+        
       </div>
     </div>
   );
