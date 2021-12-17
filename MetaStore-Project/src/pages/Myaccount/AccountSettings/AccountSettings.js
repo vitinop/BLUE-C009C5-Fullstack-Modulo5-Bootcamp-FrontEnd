@@ -24,9 +24,8 @@ export default function AccountSettings() {
               placeholder="Enter your E-mail"
             />
           </div>
-        
-         
-          <input type="button" value="Update Account Data" />
+
+          <input type="button" value="Edit/ Update Account Data" />
           <input type="button" value="Change Password" />
         </form>
       </main>

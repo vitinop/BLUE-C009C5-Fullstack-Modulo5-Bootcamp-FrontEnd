@@ -9,7 +9,6 @@ import Login from "./pages/Login/Login.js";
 import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import PasswordRecoveryCheckout from "./pages/PasswordRecovery/PasswordRecoveryCheckout.js";
-
 import PasswordChangePassword from "./pages/PasswordRecovery/PasswordChangePassword.js";
 import Team from "./pages/Team/Team";
 import Friends from "./pages/Friends/Friends";
@@ -38,7 +37,7 @@ import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
 import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
-
+import PersonalData from './pages/Myaccount/PersonalData/PersonalData'
 
 
 
@@ -50,20 +49,21 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createAccount" element={<CreateAccount />} />
-        <Route path="/passwordRecovery" element={<PasswordRecovery />} />
-        <Route path="/passwordRecovery/checkout" element={<PasswordRecoveryCheckout />} />
+        <Route path="/passwordrecovery" element={<PasswordRecovery />} />
+        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
-        <Route path="/myaccount/MySells" element={<MySells />} />
-        <Route path="/myaccount/AccountSettings" element={<AccountSettings />} />
+        <Route path="/myaccount/personaldata" element={<PersonalData />} />
+        <Route path="/myaccount/mysells" element={<MySells />} />
+        <Route path="/myaccount/accountsettings" element={<AccountSettings />} />
         <Route path="/myaccount" element={<Myaccount />} />
         <Route path="/team" element={<Team />} />
         <Route path="/friends" element={<Friends />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />
-        <Route path="/salesDescription" element={<SalesDescription />} />
-        <Route path="/salesMetaverse" element={<SalesMetaverse />} />
-        <Route path="/salesCategories" element={<SalesCategories />} />
-        <Route path="/salesPrice" element={<SalesPrice />} />
+        <Route path="/salesdescription" element={<SalesDescription />} />
+        <Route path="/salesmetaverse" element={<SalesMetaverse />} />
+        <Route path="/salescategories" element={<SalesCategories />} />
+        <Route path="/salesprice" element={<SalesPrice />} />
         <Route path="/modal3d" element={<Modal3D />} />
         <Route path="/search" element={<Search />} />
         <Route path="/recentSearch" element={<RecentSearch />} />
