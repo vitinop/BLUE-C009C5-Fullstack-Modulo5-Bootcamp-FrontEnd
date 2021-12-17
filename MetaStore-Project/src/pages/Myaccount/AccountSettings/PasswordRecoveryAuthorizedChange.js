@@ -1,4 +1,4 @@
-import "./PasswordRecovery.css";
+import "../../PasswordRecovery/PasswordRecovery.css";
 
 export default function PasswordRecoveryAuthorizedChange() {
   return (

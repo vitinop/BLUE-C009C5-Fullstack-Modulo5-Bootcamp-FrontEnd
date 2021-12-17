@@ -14,12 +14,12 @@ const Nav = styled.nav`
     font-family: 'Source Code Pro', monospace;
   }
   .nav-burguer-logo {
-    margin-bottom: 100px;
-    width: 50%;
+    margin-bottom: 65px;
+   
   }
 
   .navbar-logo img {
-    width: 80px;
+    width: 45px;
   }
   .nav-master {
     display: flex;
