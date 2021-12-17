@@ -4,7 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 import { IoIosLogOut } from "react-icons/io";
 import { BsWallet, BsGear } from "react-icons/bs";
 import { BiPurchaseTag, BiDollar, BiHeart } from "react-icons/bi";
-import LogoutModal from "./Modal/LogoutModal";
+import LogoutModal from "../../components/Modal/LogoutModal";
 
 export default function Myaccount() {
   return (
