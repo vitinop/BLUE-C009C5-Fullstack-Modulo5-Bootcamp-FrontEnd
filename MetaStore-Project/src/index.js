@@ -34,6 +34,8 @@ import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
 import MySells from './pages/Myaccount/MySells/MySells';
+import Payment from './pages/Payment/Payment';
+import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
 
 
 
@@ -70,7 +72,10 @@ ReactDOM.render(
         <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />
         <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />
         <Route path="/userCatalog" element={<UserCatalog />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />
 
+        
 
       </Routes>
     </BrowserRouter>
