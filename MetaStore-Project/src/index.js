@@ -9,7 +9,7 @@ import Login from "./pages/Login/Login.js";
 import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
 import PasswordRecovery from "./pages/PasswordRecovery/PasswordRecovery.js";
 import PasswordRecoveryCheckout from "./pages/PasswordRecovery/PasswordRecoveryCheckout.js";
-import PasswordRecoveryAuthorizedChange from "./pages/PasswordRecovery/PasswordRecoveryAuthorizedChange.js";
+
 import PasswordChangePassword from "./pages/PasswordRecovery/PasswordChangePassword.js";
 import Team from "./pages/Team/Team";
 import Friends from "./pages/Friends/Friends";
@@ -34,6 +34,7 @@ import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
 import MySells from './pages/Myaccount/MySells/MySells';
+import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/PasswordRecoveryAuthorizedChange";
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
 import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
@@ -51,7 +52,7 @@ ReactDOM.render(
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordRecovery" element={<PasswordRecovery />} />
         <Route path="/passwordRecovery/checkout" element={<PasswordRecoveryCheckout />} />
-        <Route path="/passwordRecovery/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
+        <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
         <Route path="/myaccount/MySells" element={<MySells />} />
         <Route path="/myaccount/AccountSettings" element={<AccountSettings />} />
