@@ -10,11 +10,13 @@ export default function Myaccount() {
   return (
     <div className="center-myaccount">
       <div className="myaccount-links">
+        <div className="centerProfile">
         <div className="profilePicture">
           <img
             src="https://iconape.com/wp-content/files/md/247797/png/republic-of-gamers-new-logo.png"
             alt="User's ProfilePicture"
           ></img>
+        </div>
         </div>
         <div className="profileInformation">
           Hi,User!
@@ -25,9 +27,9 @@ export default function Myaccount() {
               id="to-personal-data"
               aria-label="password-recovery-checkout"
             >
-              <li>Seller's Showcase </li>{" "}
+              <li> Seller's Showcase </li>{" "}
             </a>
-            <FaRegUser />
+            &nbsp;<FaRegUser />
           </div>
         </div>
       </div>

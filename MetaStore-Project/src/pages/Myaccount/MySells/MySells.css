@@ -1,28 +1,39 @@
-.center-mysells {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  margin-bottom: 3rem;
+*{
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+.cardsells{
+    max-width: 500px;
+    background-color: whitesmoke;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
 }
 
-.itemSold {
-    width:25rem;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-.itemname{
-    width: 100%;
+.centercard{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-direction: column;
 }
 
-.itemPicture img {
-  max-width: 200px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
+.imgsells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.card-text{
+    width: 100%;
+    height: auto;
 }
