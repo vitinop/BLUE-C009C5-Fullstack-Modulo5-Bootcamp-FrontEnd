@@ -9,7 +9,7 @@ const Nav = styled.nav`
   padding: 0 20px;
 
   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
-
+  
   *{
     font-family: 'Source Code Pro', monospace;
   }

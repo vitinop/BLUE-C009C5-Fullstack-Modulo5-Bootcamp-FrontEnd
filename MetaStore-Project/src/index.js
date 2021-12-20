@@ -65,7 +65,6 @@ ReactDOM.render(
         <Route path="/salescategories" element={<SalesCategories />} />
         <Route path="/salesprice" element={<SalesPrice />} />
         <Route path="/modal3d" element={<Modal3D />} />
-        <Route path="/search" element={<Search />} />
         <Route path="/recentSearch" element={<RecentSearch />} />
         <Route path="/itemSearch" element={<ItemSearch />} />
         <Route path="/metaverseRelations" element={<MetaverseRelations />} />

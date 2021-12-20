@@ -1,15 +1,11 @@
 import './Search.css';
 import ArrowRight from '../../components/ArrowRight/ArrowRight';
-import { BiSearch } from 'react-icons/bi';
 
 
 export default function Search() {
     return(
         <div className='search-father'>
-            <BiSearch />
-            <div className='search-input'>
-                <input type='text' placeholder='search the metastore'></input> 
-            </div>
+            
             <div className='search-list'>
 
                 <ul>

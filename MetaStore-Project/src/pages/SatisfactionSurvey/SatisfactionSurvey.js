@@ -16,7 +16,7 @@ export default function SatisfactionSurvey() {
                 <h5>What did you think of this experience?</h5>
             </div>
 
-            <div className='c'>
+            <div className='satisfaction-survey-emoticon'>
                 <HiOutlineEmojiHappy />
                 <RiEmotionUnhappyLine />
             </div>
