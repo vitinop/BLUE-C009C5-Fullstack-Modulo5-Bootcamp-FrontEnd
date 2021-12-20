@@ -12,7 +12,7 @@ export default function Myaccount() {
       <div className="myaccount-links">
         <div className="profilePicture">
           <img
-            src="https://iconape.com/wp-content/files/md/247797/png/republic-of-gamers-new-logo.png"
+            src="https://scontent.fcnf1-1.fna.fbcdn.net/v/t1.6435-9/43153085_236278070401620_5144988804741857280_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGUrcH63o-gvw0NTDhkppiYok31_Q4rm-eiTfX9Diub5w5ihZPJCoKUwm1_7strXvV9jOsiLWfkAnz2UmtZqeeS&_nc_ohc=eHVNSPgsdUkAX-3-CEP&tn=D8Q_2umTMuXIjTfD&_nc_ht=scontent.fcnf1-1.fna&oh=00_AT8bIRWVTifJ0K_fcrbaam7IAL1-Dr7XrguhUpdRq3i1Xg&oe=61E30589"
             alt="User's ProfilePicture"
           ></img>
         </div>
