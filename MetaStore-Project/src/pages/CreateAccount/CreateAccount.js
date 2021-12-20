@@ -6,12 +6,22 @@ export default function CreateAccount() {
       <main className="createAccountContainer">
         <h2>Create an account</h2>
         <form action="">
+
           <div className="input-field-CreateAcc">
             <input
               type="text"
-              name="username"
-              id="username"
-              placeholder="Enter your Username"
+              name="fullname"
+              id="fullname"
+              placeholder="Enter your Fullname"
+            />
+          </div>
+          
+          <div className="input-field-CreateAcc">
+            <input
+              type="text"
+              name="nickname"
+              id="nickname"
+              placeholder="Enter your Nickname"
             />
           </div>
           <div className="input-field-CreateAcc">
