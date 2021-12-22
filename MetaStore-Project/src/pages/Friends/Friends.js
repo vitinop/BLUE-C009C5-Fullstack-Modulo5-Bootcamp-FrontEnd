@@ -3,16 +3,18 @@ import { RiTeamLine } from 'react-icons/ri'
 
 export default function Friends() {
     return(
-        <div className='friends-father'>
-            <p>Enter the metastore and win 10% off</p>
+        <div className='center'>
+            <div className='friends-father'>
+                <p>Enter the metastore and win 10% off</p>
 
-            <RiTeamLine />
+                <div className='h4center'>
+                    <h4><RiTeamLine />&nbsp;HQVLM84TT2</h4>
+                </div>
 
-            <h4>HQVLM84TT2</h4>
+                <p>Share your code with your friends. They get 15% off the first purchase and you get 10%</p>
+                
 
-            <p>Share your code with your friends. They get 15% off the first purchase and you get 10%</p>
-            
-
+            </div>
         </div>
     )
     

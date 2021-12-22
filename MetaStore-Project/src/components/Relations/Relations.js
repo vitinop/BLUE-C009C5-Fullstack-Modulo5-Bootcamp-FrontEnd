@@ -17,13 +17,6 @@ export default function Relations(){
                     <li>item</li><IoIosArrowForward />
                     <li>item</li><IoIosArrowForward />
                     <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
                 </ul>
             </div>
         </div>

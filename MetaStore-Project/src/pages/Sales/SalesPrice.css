@@ -1,0 +1,33 @@
+.sales-price-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+h2, h5{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.center-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+button{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.button-public{
+    background-color: #6869ad;
+    width: 100%;
+}

@@ -6,6 +6,7 @@ import Relations from '../../components/Relations/Relations';
 export default function SalesCategories() {
     return(
     <div className='sales-categories-father'>
+        <div className='center-box'>
         <div className='sales-categories-title'>
             <h2>Choose the category</h2>
         </div>
@@ -13,9 +14,10 @@ export default function SalesCategories() {
         <Relations />
 
         <div className='sales-button'>
-            <button className='button-continue' type='submit'>Continue</button>
+            <button className='button-continues' type='submit'>Continue</button>
+            &nbsp;<BsArrowUpCircle />
         </div>
-        <BsArrowUpCircle />
+        </div>
         
     </div>
     )
