@@ -37,7 +37,8 @@ import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
 import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
-import PersonalData from './pages/Myaccount/PersonalData/PersonalData'
+import PersonalData from './pages/Myaccount/PersonalData/PersonalData';
+import '@google/model-viewer';
 
 
 

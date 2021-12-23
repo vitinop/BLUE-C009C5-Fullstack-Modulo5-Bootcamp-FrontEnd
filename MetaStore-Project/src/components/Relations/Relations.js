@@ -9,15 +9,11 @@ export default function Relations(){
             </div>
 
             <div className='relations-item'>
-                <ul>
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                    <li>item</li><IoIosArrowForward />
-                </ul>
+                    <li className='li-relations'>Meta(Oculos)<IoIosArrowForward/></li>
+                    <li className='li-relations'>Omniverse<IoIosArrowForward/></li>
+                    <li className='li-relations'>Nikeland<IoIosArrowForward/></li>
+                    <li className='li-relations'>Roblox<IoIosArrowForward/></li>
+                    <li className='li-relations'>Sandbox<IoIosArrowForward/></li>
             </div>
         </div>
 

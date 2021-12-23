@@ -23,7 +23,9 @@ h3{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: whitesmoke;
+    background-image: url('../../image/BAckground.jpg');
+    background-position: center;
+    background-size: cover;    
 }
 
 /* .btn-descubra{

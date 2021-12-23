@@ -1,0 +1,14 @@
+.center-card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.center-card3-father{
+display:flex ;
+align-items: center;
+justify-content: center;
+padding: 2rem;
+background-color: whitesmoke;
+}

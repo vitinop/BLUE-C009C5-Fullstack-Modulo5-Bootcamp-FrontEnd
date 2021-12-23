@@ -4,9 +4,9 @@ import { BiSearch } from 'react-icons/bi';
 export default function BarSearch() {
     return(
         <div className='barsearch-father'>
-            <BiSearch />
             <div className='barsearch-input'>
-                <input type='text' placeholder='search the metastore'></input> 
+            <BiSearch />&nbsp;
+                <input className='bartext' type='text' placeholder='search the metastore'></input> 
             </div>
         </div>
     )

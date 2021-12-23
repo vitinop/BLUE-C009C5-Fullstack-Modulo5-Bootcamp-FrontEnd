@@ -5,13 +5,10 @@ import Button from '../../components/Button/Button';
 
 export default function MetaverseRelations() {
     return(
+        <div className='center-realtions'>
         <div className='relations-metaverse-father'>
-            <div className='relations-metaverse'>
                 <Relations />
-            </div>
-
-            <Button />
-            <h1>INCLUIR LINK NO BOTAO PARA DIRECIONAR PARA A HOME 'Back to home'</h1>
+        </div>
         </div>
     )
     

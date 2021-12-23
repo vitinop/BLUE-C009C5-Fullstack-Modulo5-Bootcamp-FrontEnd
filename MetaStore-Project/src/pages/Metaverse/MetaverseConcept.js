@@ -8,9 +8,6 @@ export default function Metaverse() {
                 <h2>Whats is the metaverse?</h2>
                 <h5>Lorem Ipsum</h5>
             </div>
-
-            <Button />
-            <h1>INCLUIR LINK NO BOTAO PARA DIRECIONAR PARA A HOME 'Back to home'</h1>
         </div>
     )
     
