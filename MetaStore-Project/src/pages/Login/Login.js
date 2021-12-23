@@ -1,34 +1,116 @@
 import "./Login.css";
+import React, { useState, useEffect } from "react";
 
-export default function login() {
+function useFormik({ initialValues, validate }) {
+  const [touched, setTouchedFields] = useState({});
+  const [errors, setErrors] = useState({});
+  const [values, setValues] = useState(initialValues);
+
+  useEffect(() => {
+    console.log("Alguém mexeu nos values", values);
+    validateValues(values);
+  }, [values]);
+
+  function handleChange(event) {
+    const fieldName = event.target.getAttribute("name");
+    const { value } = event.target;
+    setValues({
+      ...values,
+      [fieldName]: value,
+    });
+  }
+
+  function handleBlur(event) {
+    const fieldName = event.target.getAttribute("name");
+    console.log(fieldName);
+    setTouchedFields({
+      ...touched,
+      [fieldName]: true,
+    });
+  }
+
+  function validateValues(values) {
+    setErrors(validate(values));
+  }
+
+  return {
+    values,
+    errors,
+    touched,
+    handleBlur,
+    setErrors,
+    handleChange,
+  };
+}
+
+function Login() {
+  const formik = useFormik({
+    initialValues: {
+      userEmail: "",
+      userPassword: "",
+    },
+    validate: function (values) {
+      const errors = {};
+
+      if (!values.userEmail.includes("@")) {
+        errors.userEmail = "Please, insert a valid email";
+      }
+
+      if (values.userPassword.length < 8) {
+        errors.userPassword = "Please, insert a valid password";
+      }
+
+      return errors;
+    },
+  });
+
   return (
     <div className="center">
       <main className="loginContainer">
         <h2>Login</h2>
-        <form action="">
+        <form
+          onSubmit={(event) => {
+            event.preventDefault();
+            console.log(formik.values);
+            // validateValues(formik.values)
+            alert("Olha o console!");
+          }}
+        >
           <div className="input-field">
             <input
               type="text"
-              name="username"
-              id="username"
-              placeholder="Enter Your Username or E-mail"
+              placeholder="email@example.com"
+              name="userEmail"
+              id="userEmail"
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
+              value={formik.values.userEmail}
             />
           </div>
+          {formik.touched.userEmail && formik.errors.userEmail && (
+            <span className="formField__error">{formik.errors.userEmail}</span>
+          )}
           <div className="input-field">
             <input
               type="password"
-              name="password"
-              id="password"
-              placeholder="Enter Your Password"
+              placeholder="Your secret password"
+              name="userPassword"
+              id="userPassword"
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
+              value={formik.values.userPassword}
             />
           </div>
+          {formik.touched.userPassword && formik.errors.userPassword && (
+            <span className="formField__error">
+              {formik.errors.userPassword}
+            </span>
+          )}
           <div className="checkbox-keep-conected">
             <input type="checkbox" />
             &nbsp;Keep Conected?
           </div>
-          <div className="conectionError">
-            *Invalid username,email or password, please try again!
-          </div>
+
           <input type="submit" value="Continue" />
 
           <div className="passwordRecovery">
@@ -58,3 +140,5 @@ export default function login() {
     </div>
   );
 }
+
+export default Login;
