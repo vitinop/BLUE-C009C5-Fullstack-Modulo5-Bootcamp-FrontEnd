@@ -9,11 +9,10 @@ export default function SalesDescription() {
             <h2>Sell new product</h2>
         </div>
         <div className='sales-images'>
-            <img src='' alt='imagem 1'/>
-            <img src='' alt='imagem 2'/>
-            <img src='' alt='imagem 3'/>
-            <img src='' alt='imagem 4'/>
-            <img src='' alt='imagem 5'/>
+        <div className='centerall'>
+            <img src='https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg?h=720&resize=1&w=1280' alt='imagem 1'/>
+            <img src='https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg?h=720&resize=1&w=1280' alt='imagem 2'/>
+        </div>
         </div>
 
         <div className='sales-description'>
@@ -25,6 +24,7 @@ export default function SalesDescription() {
         <div className='sales-button'>
             <button className='button-continue' type='submit'>Continue</button>
         </div>
+        &nbsp;
         <BsArrowUpCircle />
     </div>
     )

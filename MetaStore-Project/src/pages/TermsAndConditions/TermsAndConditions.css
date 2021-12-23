@@ -1,0 +1,17 @@
+.terms-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px ;
+    font-size: 0.8rem;
+}

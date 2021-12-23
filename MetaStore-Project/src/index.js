@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 import Home from "./pages/Home/Home.js";
 import Login from "./pages/Login/Login.js";
 import CreateAccount from "./pages/CreateAccount/CreateAccount.js";
@@ -37,7 +37,8 @@ import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
 import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
-import PersonalData from './pages/Myaccount/PersonalData/PersonalData'
+import PersonalData from './pages/Myaccount/PersonalData/PersonalData';
+import '@google/model-viewer';
 
 
 

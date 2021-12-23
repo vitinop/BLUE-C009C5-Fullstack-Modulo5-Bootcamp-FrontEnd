@@ -2,6 +2,7 @@ import './TermsAndConditions.css';
 
 export default function TermsAndConditions() {
     return(
+        <div className='terms-center'>
         <div className='terms-father'>
             <p>
             Código de conduta do Pacto de Contribuidor
@@ -68,6 +69,7 @@ export default function TermsAndConditions() {
 
             Para obter respostas a perguntas comuns sobre este código de conduta, consulte o FAQ em https://www.contributor-covenant.org/faq . As traduções estão disponíveis em https://www.contributor-covenant.org/translations .
             </p>
+        </div>
         </div>
     )
     

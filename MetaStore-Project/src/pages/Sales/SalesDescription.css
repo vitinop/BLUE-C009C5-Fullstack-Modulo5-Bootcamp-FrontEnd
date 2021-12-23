@@ -1,0 +1,30 @@
+.sales-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.centerall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.modal3d-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.center-modal3d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
