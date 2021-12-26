@@ -5,15 +5,52 @@ import "./Home.css";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import Card from '../../components/Card/Card';
+import Container from '../../components/Container/Container';
 
 export default function Home() {
+  const [products, setProducts] = useState([]);
+    const [mounted, setMounted] = useState(false);
+
+    const getData = async () => {
+        await axios.get("/products/findMany").then((response) => {
+        if (mounted) {
+          setProducts(response.data);
+        }
+        });
+    };
+
+    useEffect(() => {
+        setMounted(true);
+        getData();
+    }, [mounted]);
+
   return (
     <div classname="home-father">
-      <BarSearch/>
+      
       <h3>"Todos os metaversos em um único lugar"</h3>
-      <Slider />&nbsp;
+      <Slider 
+      id=""
+      alt='Metaverso'/>&nbsp;
 
       <Card3Row />
+
+      <Container title='Mais relevantes para você'>
+            {
+            products.map(product => (
+            <Card 
+                id={product.id}
+                image={product.image}
+                title={product.name}
+                preco={product.price}
+                key={product.id}
+            />
+            ))
+        }
+            </Container>
+
       
       <div className="home-midias">
         <FiFacebook />&nbsp;
@@ -21,8 +58,7 @@ export default function Home() {
         <MdOutlineEmail />&nbsp;
         <FaWhatsapp />&nbsp;
 
-        <button type='button' className="home-button" >Login</button>
-        <p><span>Direitos autorais metastore&copy; - 2021 </span></p>
+        <span>Direitos autorais metastore&copy; - 2021 </span>
       </div>
     </div>
   );

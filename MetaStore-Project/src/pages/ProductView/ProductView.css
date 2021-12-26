@@ -1,0 +1,59 @@
+.flex-grow-1{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5% 0 0 30%;
+    
+}
+
+.row{
+    background: white;
+    border-radius: 8px; 
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 20px 20px 50px -30px #9F66FF;
+    padding: 1.5rem;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 5%
+}
+
+button{
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    border:0;
+    cursor:pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%
+    
+
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 10%;
+}

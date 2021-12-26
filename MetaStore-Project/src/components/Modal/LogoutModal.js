@@ -4,6 +4,8 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
+import { Link } from 'react-router-dom';
+
 
 
 const style = {
@@ -45,7 +47,8 @@ export default function LogoutModal() {
             </div>
 
             <div>
-            <button>Yes</button> <button>No</button>
+            <Link to='/login'><button>Yes</button></Link>
+            <Link to='/'><button>No</button></Link>
             </div>
           </Box>
         </Fade>

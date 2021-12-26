@@ -1,0 +1,65 @@
+.adict{
+    display: flex;
+    width: 40%;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px;
+	transform-style: preserve-3d;
+	perspective: 500px; 
+    box-shadow: 20px 20px 50px -30px #9F66FF;
+    line-height: 30px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+form.add-form{
+    display:flex;
+    margin-left: 25%;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    line-height: 35px;
+}
+
+button{
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    border:0;
+    cursor:pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.buttons-add{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+
+}
+
+label{
+    font-size: 100%;
+    font-weight: 500;
+}
+select{
+    font-size: 100%;
+}
+
+input{
+    width: 300px;
+    color: black;
+    padding: .4rem;
+    border-radius: 20px;
+    line-height: 30px;
+
+}

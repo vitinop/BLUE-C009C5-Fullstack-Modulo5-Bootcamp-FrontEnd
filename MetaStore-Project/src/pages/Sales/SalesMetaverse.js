@@ -15,10 +15,12 @@ export default function SalesMetaverse() {
 
         
         <div className='sales-button'>
-            <button className='button-continues' type='submit'>Continue</button>
+            <a href='/salescategories'>
+                <button className='button-continues' type='submit'>Continue</button>
+            </a>
             &nbsp;<BsArrowUpCircle />
         </div>
-        </div>
+    </div>
         
     </div>
     )
