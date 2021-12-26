@@ -1,8 +1,8 @@
-import './MetaverseCatalog.css';
+import './MetaversesCatalog.css';
 import Slider from '../../components/Slider/Slider'; 
 import Card from '../../components/Card/Card';
 
-export default function MetaverseCatalog() {
+export default function MetaversesCatalog() {
     return(
         <div className='metaverse-catalog-father'>
             <div className='metaverse-catalog-title'>
@@ -11,9 +11,7 @@ export default function MetaverseCatalog() {
             </div>
 
             <Slider />
-            <div className='metaverse-catalog-description'>
-                <h1>INCLUIR DESCRIÇÃO</h1>
-            </div>
+            
             <div className='metaverse-catalog-card'>
                 <Card />
                 <Card />
