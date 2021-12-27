@@ -21,7 +21,6 @@ export default function Home() {
         <MdOutlineEmail />&nbsp;
         <FaWhatsapp />&nbsp;
 
-        <button type='button' className="home-button" >Login</button>
         <p><span>Direitos autorais metastore&copy; - 2021 </span></p>
       </div>
     </div>

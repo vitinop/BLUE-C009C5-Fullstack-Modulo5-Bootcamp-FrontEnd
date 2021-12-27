@@ -23,9 +23,19 @@ h3{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: url('../../image/BAckground.jpg');
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
     background-position: center;
     background-size: cover;    
+    border-top: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
+    border-bottom: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+img{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 /* .btn-descubra{
