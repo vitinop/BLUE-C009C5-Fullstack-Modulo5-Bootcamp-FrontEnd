@@ -1,6 +1,7 @@
 import './MetaverseConcept.css';
 import Button from '../../components/Button/Button';
 
+
 export default function Metaverse() {
     return(
         <div className='metaverse-father'>

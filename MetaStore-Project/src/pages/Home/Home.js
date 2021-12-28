@@ -6,6 +6,7 @@ import { FiFacebook } from "react-icons/fi";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
+
 export default function Home() {
   return (
     <div classname="home-father">
