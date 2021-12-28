@@ -17,8 +17,13 @@ export default function SalesPublic() {
             </div>
 
             <div className='sales-button'>
+                
                 <button className='button-public' type='submit'>View</button>
-                <button className='button-public-other' type='submit'>Publish other product</button>
+
+                <a href='/salesdescription'>
+                    <button className='button-public-other' type='submit'>Publish other product</button>
+                </a>
+                
             </div>
             <BsArrowUpCircle />
         </div>

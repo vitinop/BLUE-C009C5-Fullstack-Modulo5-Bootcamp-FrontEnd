@@ -61,7 +61,10 @@ export default function Myaccount() {
         <li>Favorite Itens</li> <BiHeart />
       </div>
       <div className="container-userOptions">
-        <li>Invite friends</li> <AiOutlineUsergroupAdd />
+        <a href='/friends'>
+          <li>Invite friends</li> <AiOutlineUsergroupAdd />
+        </a>
+        
       </div>
       <div className="container-userOptions">
         <li>Account settings</li> <BsGear />

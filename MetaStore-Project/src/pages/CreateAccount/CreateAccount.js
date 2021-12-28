@@ -1,4 +1,5 @@
 import "./CreateAccount.css";
+import { Link } from 'react-router-dom';
 
 export default function CreateAccount() {
   return (
@@ -61,16 +62,19 @@ export default function CreateAccount() {
             <input type="checkbox" />
             &nbsp; I agree to the terms of the and conditions of the{" "}
             <a
-              className="subscriberAgreement"
-              href="/subscriberAgreement"
-              id="to-SubscriberAgreement"
-              aria-label="subscriberAgreement"
+              className="termsAndConditions"
+              href="/termsAndConditions"
+              id="to-termsAndConditions"
+              aria-label="termsAndConditions"
             >
               MetaStore Subscriber Agreement?
             </a>
           </div>
           
-          <input type="submit" value="Continue" />
+          <Link to='/myaccount'>
+              <button className="save" type="submit">Continue</button>
+            </Link>
+          
         </form>
       </main>
     </div>

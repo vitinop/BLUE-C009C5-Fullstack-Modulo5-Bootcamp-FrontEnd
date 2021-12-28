@@ -22,7 +22,9 @@ export default function SalesDescription() {
             <h5>ex: yellow Nike leather shoes, high soles, size 39, male, with shoelace.</h5>
         </div>
         <div className='sales-button'>
-            <button className='button-continue' type='submit'>Continue</button>
+            <a href='salesmetaverse'>
+                <button className='button-continue' type='submit'>Continue</button>
+            </a>
         </div>
         &nbsp;
         <BsArrowUpCircle />

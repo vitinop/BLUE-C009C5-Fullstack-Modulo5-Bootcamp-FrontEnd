@@ -14,7 +14,10 @@ export default function SalesCategories() {
         <Relations />
 
         <div className='sales-button'>
-            <button className='button-continues' type='submit'>Continue</button>
+            <a href='/salesprice'>
+                <button className='button-continues' type='submit'>Continue</button>
+            </a>
+            
             &nbsp;<BsArrowUpCircle />
         </div>
         </div>

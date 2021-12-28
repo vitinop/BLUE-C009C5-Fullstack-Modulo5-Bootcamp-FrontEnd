@@ -11,12 +11,15 @@ export default function SalesPrice() {
             <h2>What is the price of your product?</h2>
             <h5>only when your product is sold will the commission be charged</h5>
         </div>
-        <div className='center-button'>
+        
         <div className='sales-button'>
-            <button className='button-public' type='submit'>Publish product</button>
+            <a href='/salespublic'>
+                <button className='button-public' type='submit'>Publish product</button>
+            </a>
+            
             &nbsp;<BsArrowUpCircle />
         </div>
-        </div>
+        
     </div>
     </div>
     )
