@@ -1,20 +1,39 @@
 import './Card.css';
 import { FaRegHeart } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
-export default function Card() {
+import axios from 'axios';
+
+export default function Card(props) {
+
+  const navigate = useNavigate();
+
+    const goToProductPage = () => {
+        navigate('/home', { state: props.id })
+    }
+
+    const wishProduct = () => {
+        const token = localStorage.token;
+        const config = {
+        headers: { Authorization: `Bearer ${token}`}
+        }
+        const id = props.id;
+
+        axios.get(`/view/wish/${id}`, config)
+    }
 
   return (
     <div className='cards'>
 
-      <div className='cards-item'>
+      <div className='cards-item' onClick={goToProductPage}>
         <div className='cards-image'>
-          <img src='https://media.seudinheiro.com/cdn-cgi/image/fit=contain,width=640&,format=auto/uploads/2021/11/metaverso-realidade-virtual-628x353.jpg' alt='card-item'></img>
+          <img src={props.image} alt={props.title}></img>
         </div>
-        <h2 className='cards-title'>Nome do item</h2>
-        <span className='cards-preco'>Preço</span>
+        <h2 className='cards-title'>{props.title}</h2>
+        <span className='cards-preco'>{props.price}</span>
       </div>
 
-      <button className='wishlist'>
+      <button className='wishlist' onClick={wishProduct}>
         <FaRegHeart />
       </button>
     </div>
