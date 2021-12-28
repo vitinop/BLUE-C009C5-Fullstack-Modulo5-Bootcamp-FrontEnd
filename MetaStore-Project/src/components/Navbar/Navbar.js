@@ -5,7 +5,6 @@ import logo from "./images/Logo-Gif-Text.gif";
 
 const Nav = styled.nav`
   height: 100%;
-  border-bottom: 2px solid #f1f1f1;
   padding: 0 20px;
 
   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
@@ -27,6 +26,8 @@ const Nav = styled.nav`
     align-items: center;
     text-align: center;
     font-size: 20px;
+    background: rgb(245,245,245);
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
   }
 `;
 

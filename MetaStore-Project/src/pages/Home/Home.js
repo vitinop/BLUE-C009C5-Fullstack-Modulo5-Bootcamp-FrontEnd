@@ -10,6 +10,7 @@ import React, { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import Container from '../../components/Container/Container';
 
+
 export default function Home() {
   const [products, setProducts] = useState([]);
     const [mounted, setMounted] = useState(false);
@@ -58,7 +59,9 @@ export default function Home() {
         <MdOutlineEmail />&nbsp;
         <FaWhatsapp />&nbsp;
 
+
         <span>Direitos autorais metastore&copy; - 2021 </span>
+
       </div>
     </div>
   );

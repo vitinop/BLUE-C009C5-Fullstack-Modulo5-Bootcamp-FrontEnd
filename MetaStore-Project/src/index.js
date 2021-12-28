@@ -95,8 +95,9 @@ ReactDOM.render(
 
       </Routes>
     </BrowserRouter>
-    <ArrowUp />
-    <SignLanguage />
+
+    <p><SignLanguage /></p> &nbsp;
+    <p><ArrowUp /></p> &nbsp;
     <Footer />
   </React.StrictMode>,
   document.getElementById("root")
