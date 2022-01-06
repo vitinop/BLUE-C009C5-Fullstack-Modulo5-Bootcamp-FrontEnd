@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function CreateAccount() {
   const [name, setName] = useState("");
-  const [nickname, setNickname] = useState("");
+  const [nick_name, setNickname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
@@ -14,7 +14,15 @@ export default function CreateAccount() {
 
     const user = {
       name: name,
-      nickname: nickname,
+      surname: '',
+      description:'',
+      banner:'',
+      role: 'user',
+      status:'ativo',
+      average_qualification : '0',
+      seller: true,
+      profile_picture: '',
+      nick_name: nick_name,
       email: email,
       password: password,
       passwordConfirmation: passwordConfirmation,
