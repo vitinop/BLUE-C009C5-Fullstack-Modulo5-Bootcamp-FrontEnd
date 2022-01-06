@@ -11,7 +11,7 @@
 }
 
 
-form.add-form{
+.add-form form{
     display:flex;
     margin-left: 25%;
     flex-direction: column;
@@ -20,7 +20,7 @@ form.add-form{
     line-height: 35px;
 }
 
-button{
+.buttons-add button{
     background: linear-gradient(to right, #9F66FF, #DFCBFF);
     padding: 0.5rem;
     margin: 0.5rem;
@@ -49,15 +49,15 @@ button{
 
 }
 
-label{
+.add-form label{
     font-size: 100%;
     font-weight: 500;
 }
-select{
+.add-form select{
     font-size: 100%;
 }
 
-input{
+.add-form input{
     width: 300px;
     color: black;
     padding: .4rem;

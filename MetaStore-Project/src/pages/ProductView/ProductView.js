@@ -59,7 +59,6 @@ const ProductView = (props) => {
                 </div>
             </div>
             <Modal open={open} onClose={onCloseModal} center>
-                
                 <button className="btn btn-danger" onClick={onCloseModal}>No</button>
                 <button className="btn btn-success" onClick={handleDelete}>Yes</button>
                 <h2>Do you really wish delete?</h2>

@@ -28,7 +28,7 @@
     margin-bottom: 5%
 }
 
-button{
+.buttons{
     background: linear-gradient(to right, #9F66FF, #DFCBFF);
     padding: 0.5rem 1rem;
     border-radius: 32px;
