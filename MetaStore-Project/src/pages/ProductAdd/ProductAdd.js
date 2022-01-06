@@ -40,6 +40,7 @@ const ProductAdd = (props) => {
     
       return (
 
+        <div className="center-button-add">
         <div className="adict">
     
           <form className="add-form" onSubmit={(e) => {handleSubmit(e)}}>
@@ -66,8 +67,6 @@ const ProductAdd = (props) => {
                   </input>
                   { !product["priority"] ? <span className="emptyText"></span> : ""}
               </div>
-
-              
             
               <div className="buttons-add">
               
@@ -77,7 +76,9 @@ const ProductAdd = (props) => {
                 </Link>
 
               </div>
+              
           </form>
+    </div>
     </div>
   )
       

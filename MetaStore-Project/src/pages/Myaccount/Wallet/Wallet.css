@@ -1,0 +1,12 @@
+.wallet-father{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.center-wallet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}

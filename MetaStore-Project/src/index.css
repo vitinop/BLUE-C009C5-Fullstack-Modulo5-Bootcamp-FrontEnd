@@ -4,6 +4,15 @@
     
 }
 
+.center-signs{
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
 ::-webkit-scrollbar {
   height: 12px;
   width: 8px;

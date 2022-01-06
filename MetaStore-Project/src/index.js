@@ -41,6 +41,8 @@ import Search from './pages/Search/Search';
 import BarSearch from './components/BarSearch/BarSearch';
 import SalesPublic from './pages/Sales/SalesPublic';
 import Fortnite from './pages/Metaverses/Fortnite/Fortnite';
+import Wallet from "./pages/Myaccount/Wallet/Wallet";
+import Cart from "./pages/Cart/Cart";
 import axios from 'axios';
 import Google from './pages/Metaverses/Google/Google';
 import Meta from './pages/Metaverses/Meta/Meta';
@@ -50,6 +52,7 @@ import Nexus from './pages/Metaverses/Nexus/Nexus';
 import NBA from './pages/Metaverses/NBA/NBA';
 import Descentraland from './pages/Metaverses/Descentraland/Descentraland';
 import Minerals from './pages/Metaverses/Minerals/Minerals';
+
 import '@google/model-viewer';
 
 axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com';
@@ -57,8 +60,9 @@ axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar /> 
+    <Navbar />
     <BarSearch />
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -95,6 +99,8 @@ ReactDOM.render(
         <Route path="/productAdd" element={<ProductAdd />} />
         <Route path="/search" element={<Search />} />
         <Route path="/fortnite" element={<Fortnite />} />
+        <Route path="/wallet" element={<Wallet />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="/google" element={<Google />} />
         <Route path="/meta" element={<Meta />} />
         <Route path="/thesandbox" element={<TheSandbox />} />
@@ -108,9 +114,9 @@ ReactDOM.render(
 
       </Routes>
     </BrowserRouter>
-
-    <p><SignLanguage /></p> &nbsp;
-    <p><ArrowUp /></p> &nbsp;
+    <div className="center-signs">&nbsp;
+      <p><ArrowUp /></p> &nbsp;
+    </div>
     <Footer />
   </React.StrictMode>,
   document.getElementById("root")
