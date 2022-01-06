@@ -58,11 +58,8 @@ export default function Home() {
         <FaInstagram />&nbsp;
         <MdOutlineEmail />&nbsp;
         <FaWhatsapp />&nbsp;
-
-
-        <span>Direitos autorais metastore&copy; - 2021 </span>
-
       </div>
+      <span>Direitos autorais metastore&copy; - 2021 </span>
     </div>
   );
 }

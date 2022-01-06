@@ -54,8 +54,9 @@ import '@google/model-viewer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar /> 
+    <Navbar />
     <BarSearch />
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -96,8 +97,9 @@ ReactDOM.render(
 
       </Routes>
     </BrowserRouter>
-    <p><SignLanguage /></p> &nbsp;
-    <p><ArrowUp /></p> &nbsp;
+    <div className="center-signs">&nbsp;
+      <p><ArrowUp /></p> &nbsp;
+    </div>
     <Footer />
   </React.StrictMode>,
   document.getElementById("root")
