@@ -50,14 +50,9 @@ import Nexus from './pages/Metaverses/Nexus/Nexus';
 import NBA from './pages/Metaverses/NBA/NBA';
 import Descentraland from './pages/Metaverses/Descentraland/Descentraland';
 import Minerals from './pages/Metaverses/Minerals/Minerals';
-
-
-
-
-// import axios from 'axios';
 import '@google/model-viewer';
 
-axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com/api/user';
+axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
