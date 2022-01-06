@@ -45,11 +45,6 @@
     font-size: 12px;
 }
 
-.home-icon:hover {
-    box-shadow: 0.2rem 0.2rem 0.4rem red;
-    ;
-}
-
 .search-icon {
     display: flex;
     flex-direction: column;

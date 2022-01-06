@@ -9,6 +9,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import Container from '../../components/Container/Container';
+import Card3D from "../../components/Card3D/Card3D";
 
 
 export default function Home() {
@@ -51,6 +52,13 @@ export default function Home() {
             ))
         }
             </Container>
+
+          <div className="card3d-home">
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+          </div>
 
       
       <div className="home-midias">
