@@ -30,7 +30,7 @@ export default function Card(props) {
           <img src={props.image} alt={props.title}></img>
         </div>
         <h2 className='cards-title'>{props.title}</h2>
-        <span className='cards-preco'>{props.price}</span>
+        <span className='cards-price'>{props.price}</span>
       </div>
 
       <button className='wishlist' onClick={wishProduct}>

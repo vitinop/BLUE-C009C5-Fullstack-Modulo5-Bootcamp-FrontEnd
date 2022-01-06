@@ -1,6 +1,6 @@
 import './Fortnite.css';
-import Slider from '../../../components/Slider/Slider';
 import Card from '../../../components/Card/Card';
+import FortniteCategories from './FortniteCategories';
 
 export default function Fortnite() {
     return(
@@ -12,12 +12,16 @@ export default function Fortnite() {
 
             <div className='fortnite-description'>
                 <img src='https://mais.opovo.com.br/_midias/jpg/2021/10/27/fortnite-17356546.jpg' alt='fortnite slider'></img>
-                <p>O Fortnite evoluiu de um simples game para uma plataforma de socialização, que promove até mesmo shows de músicos famosos.</p>
+                <p>Fortnite has evolved from a simple game to a socialization platform that even promotes concerts by famous musicians.</p>
             </div>
 
-            <Card />
-            <Card />
-            <Card />
+            <FortniteCategories />
+            <label>Ariana Grande</label>
+            <Card alt='Ariana Grande' />
+            <label>Travis Scott</label>
+            <Card alt='Travis Scott' />
+            <label>Steve Aoki</label>
+            <Card alt='Steve Aoki' />
 
 
         </div>
