@@ -43,15 +43,20 @@ import SalesPublic from './pages/Sales/SalesPublic';
 import Fortnite from './pages/Metaverses/Fortnite/Fortnite';
 import Wallet from "./pages/Myaccount/Wallet/Wallet";
 import Cart from "./pages/Cart/Cart";
+import axios from 'axios';
+import Google from './pages/Metaverses/Google/Google';
+import Meta from './pages/Metaverses/Meta/Meta';
+import TheSandbox from './pages/Metaverses/TheSandbox/TheSandbox';
+import Roblox from './pages/Metaverses/Roblox/Roblox';
+import Nexus from './pages/Metaverses/Nexus/Nexus';
+import NBA from './pages/Metaverses/NBA/NBA';
+import Descentraland from './pages/Metaverses/Descentraland/Descentraland';
+import Minerals from './pages/Metaverses/Minerals/Minerals';
 
-// import axios from 'axios';
 import '@google/model-viewer';
 
-
-// axios.defaults.baseURL = 'https://nintendo-shop.herokuapp.com/';
-// axios.defaults.headers.post['Content-Type'] = 'application/json';
-
-
+axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -96,6 +101,16 @@ ReactDOM.render(
         <Route path="/fortnite" element={<Fortnite />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/google" element={<Google />} />
+        <Route path="/meta" element={<Meta />} />
+        <Route path="/thesandbox" element={<TheSandbox />} />
+        <Route path="/roblox" element={<Roblox />} />
+        <Route path="/nexus" element={<Nexus />} />        
+        <Route path="/nba" element={<NBA />} />
+        <Route path="/descentraland" element={<Descentraland />} />
+        <Route path="/minerals" element={<Minerals />} />
+
+        
 
       </Routes>
     </BrowserRouter>
