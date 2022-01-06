@@ -2,11 +2,10 @@ import "./CreateAccount.css";
 import axios from "axios";
 import { useState } from "react";
 
-
 export default function CreateAccount() {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [nickname, setNickname] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
@@ -21,16 +20,14 @@ export default function CreateAccount() {
       passwordConfirmation: passwordConfirmation,
     };
 
-    axios.post("api/user", user)
-    .then((response) => console.log(response));
-  
+    axios.post("api/user", user).then((response) => console.log(response));
   };
 
   return (
     <div className="center-CreateAccount">
       <main className="createAccountContainer">
         <h2>Create an account</h2>
-        <form className='register-form' onSubmit={handleSubmit}>
+        <form className="register-form" onSubmit={handleSubmit}>
           <div className="input-field-CreateAcc">
             <input
               type="text"

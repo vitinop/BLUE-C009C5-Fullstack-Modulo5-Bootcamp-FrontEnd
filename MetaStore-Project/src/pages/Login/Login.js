@@ -3,54 +3,48 @@ import axios from "axios";
 import React, { useState } from "react";
 
 export default function Login() {
-
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = event => {
-    event.preventDefault()
-    const login={
-      
-      email:email,
-      password:password
-     
-    }
-    axios.post('auth/login', login)
-    .then(response => {
-      const token = response.token
-      localStorage.setItem('token',token)
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const login = {
+      email: email,
+      password: password,
+    };
+    axios.post("auth/login", login).then((response) => {
+      const token = response.token;
+      localStorage.setItem("token", token);
     });
-  }
-
+  };
 
   return (
     <div className="center">
       <main className="loginContainer">
         <h2>Login</h2>
-        <form className="login-form" 
-          onSubmit={handleSubmit}
-          
-        >
+        <form className="login-form" onSubmit={handleSubmit}>
           <div className="input-field">
             <input
               type="email"
               placeholder="email@example.com"
               name="userEmail"
               id="userEmail"
-              required onChange={event => setEmail(event.target.value)} />            
+              required
+              onChange={(event) => setEmail(event.target.value)}
+            />
           </div>
-         
+
           <div className="input-field">
             <input
               type="password"
               placeholder="Your secret password"
               name="userPassword"
               id="userPassword"
-              required onChange={event => setPassword(event.target.value)}
-              
+              required
+              onChange={(event) => setPassword(event.target.value)}
             />
           </div>
-          
+
           <div className="checkbox-keep-conected">
             <input type="checkbox" />
             &nbsp;Keep Conected?
@@ -85,5 +79,3 @@ export default function Login() {
     </div>
   );
 }
-
-
