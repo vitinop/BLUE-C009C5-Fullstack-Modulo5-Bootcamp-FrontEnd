@@ -41,16 +41,11 @@ import Search from './pages/Search/Search';
 import BarSearch from './components/BarSearch/BarSearch';
 import SalesPublic from './pages/Sales/SalesPublic';
 import Fortnite from './pages/Metaverses/Fortnite/Fortnite';
-
-
-// import axios from 'axios';
+import axios from 'axios';
 import '@google/model-viewer';
 
-
-// axios.defaults.baseURL = 'https://nintendo-shop.herokuapp.com/';
-// axios.defaults.headers.post['Content-Type'] = 'application/json';
-
-
+axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com/api/user';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
   <React.StrictMode>

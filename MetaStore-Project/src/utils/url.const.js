@@ -1,3 +1,3 @@
-const baseURL = 'https://nintendo-shop.herokuapp.com';
+const baseURL = 'https://metastoreteste1.herokuapp.com';
 
 export default baseURL;
