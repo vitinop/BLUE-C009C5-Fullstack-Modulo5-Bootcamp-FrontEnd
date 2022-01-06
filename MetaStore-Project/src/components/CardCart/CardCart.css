@@ -1,0 +1,8 @@
+.CartImg{
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.CardCart{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; 
+}

@@ -14,8 +14,9 @@ h3{
 .slider{
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     padding: 2rem;
+    border-radius: 1rem;
 }
 
 .center-slider{
@@ -27,16 +28,20 @@ h3{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
     background-position: center;
     background-size: cover;    
-    border-top: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
-    border-bottom: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
+    border-top: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 30%, rgba(255,255,255,1) 100%);
+    border-bottom: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 70%, rgba(255,255,255,1) 100%);
 }
 
 img{
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    display: flex;
+    border-radius: 1rem;
 }
+
+.carousel-inner{
+    display: flex;
+    border-radius: 1rem;
+}
+
 
 /* .btn-descubra{
     background-color: white;
