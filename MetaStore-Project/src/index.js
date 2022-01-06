@@ -96,7 +96,6 @@ ReactDOM.render(
 
       </Routes>
     </BrowserRouter>
-
     <p><SignLanguage /></p> &nbsp;
     <p><ArrowUp /></p> &nbsp;
     <Footer />
