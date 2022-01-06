@@ -41,7 +41,7 @@ import Search from './pages/Search/Search';
 import BarSearch from './components/BarSearch/BarSearch';
 import SalesPublic from './pages/Sales/SalesPublic';
 import Fortnite from './pages/Metaverses/Fortnite/Fortnite';
-
+import Wallet from "./pages/Myaccount/Wallet/Wallet";
 
 // import axios from 'axios';
 import '@google/model-viewer';
@@ -92,6 +92,7 @@ ReactDOM.render(
         <Route path="/productAdd" element={<ProductAdd />} />
         <Route path="/search" element={<Search />} />
         <Route path="/fortnite" element={<Fortnite />} />
+        <Route path="/wallet" element={<Wallet />} />
 
       </Routes>
     </BrowserRouter>
