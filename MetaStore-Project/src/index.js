@@ -71,15 +71,15 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createAccount" element={<CreateAccount />} />
-        <Route path="/passwordrecovery" element={<PasswordRecovery />} />
+        <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
         <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
-        <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />
-        <Route path="/myaccount/personaldata" element={<PersonalData />} />
-        <Route path="/myaccount/mysells" element={<MySells />} />
-        <Route path="/myaccount/accountsettings" element={<AccountSettings />} />
+        <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
+        <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
+        <Route path="/myaccount/mysells" element={<MySells />} />{/* revisar */}
+        <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
         <Route path="/myaccount" element={<Myaccount />} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/team" element={<Team />} /> {/* revisar */}
         <Route path="/friends" element={<Friends />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />
         <Route path="/salesdescription" element={<SalesDescription />} />
