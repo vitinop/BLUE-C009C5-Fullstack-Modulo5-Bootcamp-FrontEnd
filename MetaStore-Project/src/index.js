@@ -109,9 +109,7 @@ ReactDOM.render(
         <Route path="/nba" element={<NBA />} />
         <Route path="/descentraland" element={<Descentraland />} />
         <Route path="/minerals" element={<Minerals />} />
-
-        
-
+        <Route path="/wishlist" element={<WishList />} />
       </Routes>
     </BrowserRouter>
     <div className="center-signs">&nbsp;
