@@ -1,5 +1,5 @@
-import Container from '../../Components/Container/Container';
-import Card from '../../Components/Card/Card';
+import Container from '../../components/Container/Container';
+import Card from '../../components/Card/Card';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
