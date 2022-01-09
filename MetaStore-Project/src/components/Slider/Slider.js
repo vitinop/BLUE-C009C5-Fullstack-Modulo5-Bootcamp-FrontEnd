@@ -10,13 +10,13 @@ export default function Slider(){
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src="https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMTEvYmIyNGUyZWMtZDExMy00N2VmLTk5MWYtM2M1MWFmZTkxZDRhLmpwZw==.jpg" class="d-block w-100" alt="..."></img>
+                        <img src="https://nftplazas.com/wp-content/uploads/2021/08/metaverse-future-1280x720.jpg" class="d-block w-100" alt="..."></img>
                         </div>
                         <div className="carousel-item">
-                        <img src="https://images.hdqwalls.com/download/star-wars-4th-may-kt-1280x720.jpg?h=720&resize=1&w=1280" class="d-block w-100" alt="..."></img>
+                        <img src="https://img.olhardigital.com.br/wp-content/uploads/2021/10/metaverso.jpg" class="d-block w-100" alt="..."></img>
                         </div>
                         <div className="carousel-item">
-                        <img src="https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg?h=720&resize=1&w=1280" class="d-block w-100" alt="..."></img>
+                        <img src="https://static.news.bitcoin.com/wp-content/uploads/2021/11/shutterstock_1982607317.jpg" class="d-block w-100" alt="..."></img>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

@@ -20,11 +20,3 @@ h3{
     padding-bottom: 4rem;
     padding-left: 1rem;
 }
-
-
-.card3d-home{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
