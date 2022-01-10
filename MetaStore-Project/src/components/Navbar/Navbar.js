@@ -9,7 +9,7 @@ const Nav = styled.nav`
 
   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
   
-  *{
+  {
     font-family: 'Source Code Pro', monospace;
   }
   .nav-burguer-logo {
@@ -28,6 +28,7 @@ const Nav = styled.nav`
     font-size: 20px;
     background: rgb(245,245,245);
     background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   }
 `;
 
