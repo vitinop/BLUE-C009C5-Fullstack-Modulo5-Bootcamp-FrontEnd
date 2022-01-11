@@ -13,12 +13,19 @@
     font-size: large;
 }
 
+.center-card3d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card3d-home{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 1rem;
+    justify-content: center;
+}
+
+.Card3D{
+    margin: 1rem;
 }

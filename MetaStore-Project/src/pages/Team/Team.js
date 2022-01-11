@@ -18,7 +18,7 @@ export default function Equipe() {
             <div className='team-father'>
                 
                 <div className='team-description'>
-                    <div className='marla'>                    
+                    <div className='avatar'>                    
                         <img src={marla} alt='marla'></img>
                         {/* <video width="320" height="240" controls>
                             <source src={videoMarla} type="video/mp4"/>
@@ -29,9 +29,9 @@ export default function Equipe() {
                             
                             <a href='https://www.linkedin.com/in/marla-cabral-031428124/'><AiFillLinkedin /></a>
                         </div>
-                    </div>
+                    </div>&nbsp;
 
-                    <div className='victor'>
+                    <div className='avatar'>
                         <img src={victor} alt='victor'></img>
                         {/* <video width="320" height="240" controls>
                             <source src={videoVictor} type="video/mp4"/>
@@ -42,9 +42,9 @@ export default function Equipe() {
                             
                             <a href='lkd-victor'><AiFillLinkedin /></a>
                         </div>
-                    </div>    
+                    </div>&nbsp;    
                     
-                    <div className='paulo'>
+                    <div className='avatar'>
                         <img src={paulo} alt='paulo'></img>
                         <div className="media-description">
                             <h3>Descrição</h3>
@@ -52,9 +52,9 @@ export default function Equipe() {
                             
                             <a href='lkd-paulo'><AiFillLinkedin /></a>
                         </div>
-                    </div> 
+                    </div>&nbsp; 
 
-                    <div className='leonardo'>
+                    <div className='avatar'>
                         <img src={leonardo} alt='leonardo'></img>
                         <div className="media-description">
                             <h3>Descrição</h3>
@@ -62,9 +62,9 @@ export default function Equipe() {
                             
                             <a href='lkd-leonardo'><AiFillLinkedin /></a>
                         </div>
-                    </div> 
+                    </div>&nbsp; 
 
-                    <div className='everton'>
+                    <div className='avatar'>
                         <img src={everton} alt='everton'></img>
                         <div className="media-description">
                             <h3>Descrição</h3>
@@ -72,7 +72,7 @@ export default function Equipe() {
                             
                             <a href='lkd-everton'><AiFillLinkedin /></a>
                         </div>
-                    </div>
+                    </div>&nbsp;
                 </div>
             </div>
         <BsArrowUpCircle />

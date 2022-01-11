@@ -1,0 +1,18 @@
+.catalog-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card3d-catalog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}

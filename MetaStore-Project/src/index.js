@@ -53,6 +53,7 @@ import NBA from './pages/Metaverses/NBA/NBA';
 import Descentraland from './pages/Metaverses/Descentraland/Descentraland';
 import Minerals from './pages/Metaverses/Minerals/Minerals';
 import WishList from './pages/Wishlist/Wishlist';
+import Catalog from "./pages/Catalog/Catalog";
 import '@google/model-viewer';
 
 axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com';
@@ -110,6 +111,7 @@ ReactDOM.render(
         <Route path="/descentraland" element={<Descentraland />} />
         <Route path="/minerals" element={<Minerals />} />
         <Route path="/wishlist" element={<WishList />} />
+        <Route path="/catalog" element={<Catalog />} />
       </Routes>
     </BrowserRouter>
     <div className="center-signs">&nbsp;

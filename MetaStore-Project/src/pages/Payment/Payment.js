@@ -12,29 +12,29 @@ export default function Payment() {
             <div className='payment-start'>
             <div className='payment-metod'>
                 <label className='payment-metod-label'>Metod of payment: </label>
-                <select>
+                &nbsp;<select>
                     <option>Credit Card</option>
                     <option>Criptocurrency</option>
                 </select>
             </div>&nbsp;
             <div className='payment-number'>
                 <label className='payment-metod'>Number of card/wallet: </label>
-                <input className='inout-payment' type='text' />
+                <input className='input-payment' type='text' />
             </div>&nbsp;
 
             <div className='payment-shelflife'>
                 <label className='payment-metod'>Card Validity: </label>
-                <input className='inout-payment' type='text' />
+                <input className='input-payment' type='text' />
             </div>&nbsp;
 
             <div className='payment-cvv'>
                 <label className='payment-metod'>CVV: </label>
-                <input className='inout-payment' type='text' />
+                <input className='input-payment' type='text' />
             </div>&nbsp;
 
             <div className='payment-name'>
                 <label className='payment-metod'>Cardholder Name: </label>
-                <input className='inout-payment' type='text' />
+                <input className='input-payment' type='text' />
             </div>&nbsp;
             </div>
             

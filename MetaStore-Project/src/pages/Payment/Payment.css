@@ -27,10 +27,13 @@
     padding: 1rem;
 }
 
-.inout-payment{
+.input-payment{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     margin: 0.5rem;
+    padding: 0.5rem;
     border-radius: 0.5rem;
+    border: none;
+    outline: none;
 }
 
 .button-payment{
@@ -39,4 +42,11 @@
 
 .payment-metod{
     padding: 0.5rem;
+}
+
+select{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 0.5rem;   
+    outline: none; 
 }

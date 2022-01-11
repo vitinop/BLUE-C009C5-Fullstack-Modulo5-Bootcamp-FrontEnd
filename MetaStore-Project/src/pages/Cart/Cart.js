@@ -14,10 +14,10 @@ export default function Cart() {
                     <CardCart></CardCart>
                 </div>
                 <div className="cart-button">
-                    <button className="cartbutton" >Cupom de Desconto</button>
-                    <button className="cartbutton" >Valor total</button>
+                    <span className="cartbutton" >Cupom de Desconto</span>
+                    <span className="cartbutton" >Valor total</span>
                 </div>
-                    <button className="cartbutton" >Finalizar Compra</button>
+                    <a clasName="nav-Links" href="/payment" id="to-payment" aria-label="Finalizar">Finalizar Compra</a>
             </div>
         </div>
     )
