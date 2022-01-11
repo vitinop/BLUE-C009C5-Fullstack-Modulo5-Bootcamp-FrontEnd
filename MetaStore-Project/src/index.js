@@ -85,18 +85,19 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} /> {/* revisar */}
-        <Route path="/login" element={<Login />} />{/* revisar */}
+        <Route path="/login" element={<Login />} />
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
-        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />{/* revisar */}
+        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
-        <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
+        <Route path="/myaccount/personaldata" element={<PersonalData />} />
         <Route path="/myaccount/mysells" element={<MySells />} />{/* revisar */}
+        <Route path="/myaccount/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
         <Route path="/myaccount" element={<Myaccount />} />{/* revisar */}
         <Route path="/team" element={<Team />} /> {/* revisar */}
-        <Route path="/friends" element={<Friends />} />{/* revisar */}
+        <Route path="/invitefriends" element={<Friends />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
         <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
         <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
@@ -117,10 +118,8 @@ ReactDOM.render(
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/search" element={<Search />} />{/* revisar */}
-        <Route path="/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/cart" element={<Cart />} />{/* revisar */}
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
-        <Route path="/invitefriends" element={<Friends />} />{/* revisar */}
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
         <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
         <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
@@ -143,8 +142,6 @@ ReactDOM.render(
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
-        
-        
         <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
         <Route path="/roblox" element={<Roblox />} />{/* revisar */}
         <Route path="/nexus" element={<Nexus />} />        {/* revisar */}

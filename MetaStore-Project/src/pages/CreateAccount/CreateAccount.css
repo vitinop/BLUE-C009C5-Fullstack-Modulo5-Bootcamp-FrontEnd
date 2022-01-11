@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    padding-bottom: 6rem;
 
 }
 
@@ -101,11 +102,29 @@
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
+
 .checkbox-agree {
     padding-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 600;.loginContainer form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background: linear-gradient(to left, #4776E6, #8e54e9);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.loginContainer form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #4776E6, #8e54e9);
+}
+
     margin: 10px;
 }
 .createAccountContainer a {

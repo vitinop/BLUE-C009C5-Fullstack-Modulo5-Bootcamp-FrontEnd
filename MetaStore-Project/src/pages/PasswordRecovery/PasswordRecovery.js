@@ -5,8 +5,13 @@ export default function PasswordRecovery() {
     <div className="center-passwordRecovery">
       <main className="passwordRecoveryContainer">
         <h2>Reset password</h2>
-        <p>Enter the email associated with your account and we'll send an email with the instructions to reset you password</p>
-        <form action="">
+
+        <form className="PasswordRecovery-form">
+          <p>
+            Enter the email associated with your account and we'll send an email
+            with the instructions to reset you password
+          </p>
+
           <div className="input-field-passwordRecovery">
             <input
               type="email"
@@ -15,14 +20,14 @@ export default function PasswordRecovery() {
               placeholder="Enter your e-mail"
             />
           </div>
-          <a
-              className="passwordRecoveryCheckOut"
-              href="/passwordRecovery/checkout"
-              id="to-passwordRecoveryCheckout"
-              aria-label="password-recovery-checkout"
-            >
-          <input type="submit" value="Send Instructions" />
           
+          <a
+            className="passwordRecoveryCheckOut"
+            href="/passwordRecovery/checkout"
+            id="to-passwordRecoveryCheckout"
+            aria-label="password-recovery-checkout"
+          >
+            <input type="submit" value="Send Instructions" />
           </a>
         </form>
       </main>
