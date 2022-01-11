@@ -84,7 +84,7 @@ ReactDOM.render(
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />{/* revisar */}
+        <Route path="/" element={<Home />} /> {/* revisar */}
         <Route path="/login" element={<Login />} />{/* revisar */}
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
@@ -119,7 +119,6 @@ ReactDOM.render(
         <Route path="/search" element={<Search />} />{/* revisar */}
         <Route path="/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/cart" element={<Cart />} />{/* revisar */}
-      
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
         <Route path="/invitefriends" element={<Friends />} />{/* revisar */}
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
@@ -170,8 +169,6 @@ ReactDOM.render(
         <Route path="/robloxAssessories" element={<RobloxAssessories />} />{/* revisar */}
         <Route path="/theSandboxLand" element={<TheSandboxLand />} />{/* revisar */}
         <Route path="/theSandboxRealState" element={<TheSandboxRealState />} />{/* revisar */}
-
-        
 
       </Routes>
     </BrowserRouter>
