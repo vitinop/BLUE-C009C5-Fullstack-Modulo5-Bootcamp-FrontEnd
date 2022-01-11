@@ -138,9 +138,13 @@ ReactDOM.render(
         <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
         <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}
         <Route path="/payment" element={<Payment />} />{/* revisar */}
+        <Route path="/wishlist" element={<WishList />} />{/* revisar */}
+        <Route path="/productedit" element={<ProductEdit />} />{/* revisar */}
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
+        
+        
         <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
         <Route path="/roblox" element={<Roblox />} />{/* revisar */}
         <Route path="/nexus" element={<Nexus />} />        {/* revisar */}
@@ -150,8 +154,6 @@ ReactDOM.render(
         <Route path="/meta" element={<Meta />} />{/* revisar */}
         <Route path="/descentraland" element={<Descentraland />} />{/* revisar */}
         <Route path="/minerals" element={<Minerals />} />{/* revisar */}
-        <Route path="/wishlist" element={<WishList />} />{/* revisar */}
-        <Route path="/productedit" element={<ProductEdit />} />{/* revisar */}
         <Route path="/metaverseconcept" element={<Metaverse />} />{/* revisar */}
         <Route path="/descentralandevents" element={<DescentralandEvents />} />{/* revisar */}
         <Route path="/descentralandland" element={<DescentralandLand />} />{/* revisar */}
