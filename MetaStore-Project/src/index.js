@@ -120,10 +120,8 @@ ReactDOM.render(
         <Route path="/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/cart" element={<Cart />} />{/* revisar */}
       
-        <Route path="/descentraland" element={<Descentraland />} />{/* revisar */}
-        <Route path="/minerals" element={<Minerals />} />{/* revisar */}
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
-        <Route path="/friends" element={<Friends />} />{/* revisar */}
+        <Route path="/invitefriends" element={<Friends />} />{/* revisar */}
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
         <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
         <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
@@ -144,8 +142,6 @@ ReactDOM.render(
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
-
-
         <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
         <Route path="/roblox" element={<Roblox />} />{/* revisar */}
         <Route path="/nexus" element={<Nexus />} />        {/* revisar */}
@@ -153,10 +149,6 @@ ReactDOM.render(
         <Route path="/fortnite" element={<Fortnite />} />{/* revisar */}
         <Route path="/google" element={<Google />} />{/* revisar */}
         <Route path="/meta" element={<Meta />} />{/* revisar */}
-        <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
-        <Route path="/roblox" element={<Roblox />} />{/* revisar */}
-        <Route path="/nexus" element={<Nexus />} />      {/* revisar */}  
-        <Route path="/nba" element={<NBA />} />{/* revisar */}
         <Route path="/descentraland" element={<Descentraland />} />{/* revisar */}
         <Route path="/minerals" element={<Minerals />} />{/* revisar */}
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
