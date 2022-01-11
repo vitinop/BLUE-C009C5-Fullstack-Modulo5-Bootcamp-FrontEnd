@@ -65,51 +65,51 @@ ReactDOM.render(
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} />{/* revisar */}
+        <Route path="/login" element={<Login />} />{/* revisar */}
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
-        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
-        <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />
+        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />{/* revisar */}
+        <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
         <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
         <Route path="/myaccount/mysells" element={<MySells />} />{/* revisar */}
         <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
-        <Route path="/myaccount" element={<Myaccount />} />
+        <Route path="/myaccount" element={<Myaccount />} />{/* revisar */}
         <Route path="/team" element={<Team />} /> {/* revisar */}
-        <Route path="/friends" element={<Friends />} />
-        <Route path="/termsAndConditions" element={<TermsAndConditions />} />
-        <Route path="/salesdescription" element={<SalesDescription />} />
-        <Route path="/salesmetaverse" element={<SalesMetaverse />} />
-        <Route path="/salescategories" element={<SalesCategories />} />
-        <Route path="/salesprice" element={<SalesPrice />} />
-        <Route path="/salespublic" element={<SalesPublic />} />
-        <Route path="/modal3d" element={<Modal3D />} />
-        <Route path="/recentSearch" element={<RecentSearch />} />
-        <Route path="/itemSearch" element={<ItemSearch />} />
-        <Route path="/metaversesRelations" element={<MetaversesRelations />} />
-        <Route path="/categoriesRelations" element={<CategoriesRelations />} />
-        <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />
-        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />
-        <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />
-        <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />
-        <Route path="/userCatalog" element={<UserCatalog />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />
-        <Route path="/productAdd" element={<ProductAdd />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/fortnite" element={<Fortnite />} />
-        <Route path="/wallet" element={<Wallet />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/google" element={<Google />} />
-        <Route path="/meta" element={<Meta />} />
-        <Route path="/thesandbox" element={<TheSandbox />} />
-        <Route path="/roblox" element={<Roblox />} />
-        <Route path="/nexus" element={<Nexus />} />        
-        <Route path="/nba" element={<NBA />} />
-        <Route path="/descentraland" element={<Descentraland />} />
-        <Route path="/minerals" element={<Minerals />} />
-        <Route path="/wishlist" element={<WishList />} />
+        <Route path="/friends" element={<Friends />} />{/* revisar */}
+        <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
+        <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
+        <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
+        <Route path="/salescategories" element={<SalesCategories />} />{/* revisar */}
+        <Route path="/salesprice" element={<SalesPrice />} />{/* revisar */}
+        <Route path="/salespublic" element={<SalesPublic />} />{/* revisar */}
+        <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
+        <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
+        <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
+        <Route path="/metaversesRelations" element={<MetaversesRelations />} />{/* revisar */}
+        <Route path="/categoriesRelations" element={<CategoriesRelations />} />{/* revisar */}
+        <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />{/* revisar */}
+        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />{/* revisar */}
+        <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />{/* revisar */}
+        <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
+        <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}
+        <Route path="/payment" element={<Payment />} />{/* revisar */}
+        <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
+        <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
+        <Route path="/search" element={<Search />} />{/* revisar */}
+        <Route path="/fortnite" element={<Fortnite />} />{/* revisar */}
+        <Route path="/wallet" element={<Wallet />} />{/* revisar */}
+        <Route path="/cart" element={<Cart />} />{/* revisar */}
+        <Route path="/google" element={<Google />} />{/* revisar */}
+        <Route path="/meta" element={<Meta />} />{/* revisar */}
+        <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
+        <Route path="/roblox" element={<Roblox />} />{/* revisar */}
+        <Route path="/nexus" element={<Nexus />} />        {/* revisar */}
+        <Route path="/nba" element={<NBA />} />{/* revisar */}
+        <Route path="/descentraland" element={<Descentraland />} />{/* revisar */}
+        <Route path="/minerals" element={<Minerals />} />{/* revisar */}
+        <Route path="/wishlist" element={<WishList />} />{/* revisar */}
       </Routes>
     </BrowserRouter>
     <div className="center-signs">&nbsp;
