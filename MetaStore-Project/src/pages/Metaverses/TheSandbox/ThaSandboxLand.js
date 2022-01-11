@@ -1,4 +1,4 @@
-import './TheSandboxLand.css';
+import './ThaSandboxLand.css';
 import Card from '../../../components/Card/Card';
 
 export default function TheSandboxLand(){
