@@ -1,5 +1,4 @@
 import Slider from "../../components/Slider/Slider";
-import BarSearch from "../../components/BarSearch/BarSearch";
 import Card3Row from "../../components/Card3Row/Card3Row";
 import "./Home.css";
 import { FiFacebook } from "react-icons/fi";
@@ -17,7 +16,7 @@ export default function Home() {
     const [mounted, setMounted] = useState(false);
 
     const getData = async () => {
-        await axios.get("/products/findMany").then((response) => {
+        await axios.get("/product/findMany").then((response) => {
         if (mounted) {
           setProducts(response.data);
         }
@@ -27,26 +26,30 @@ export default function Home() {
     useEffect(() => {
         setMounted(true);
         getData();
-    }, [mounted]);
+    }, [mounted])
+    
+    console.log(products);
 
   return (
     <div classname="home-father">
       
       <h3>"Todos os metaversos em um único lugar"</h3>
-      <Slider 
-      id=""
-      alt='Metaverso'/>&nbsp;
-
-      <Card3Row />
+      <Slider>
+        <Card3Row />
+      </Slider>
+        
+      
 
       <Container title='Mais relevantes para você'>
+            <a href='/metaverseconcept'>What is the metaverse?</a>
             {
             products.map(product => (
             <Card 
                 id={product.id}
-                image={product.image}
-                title={product.name}
-                preco={product.price}
+                gallery={product.gallery}
+                name_product={product.name_product}
+                price={product.price}
+                collection={product.collection}
                 key={product.id}
             />
             ))

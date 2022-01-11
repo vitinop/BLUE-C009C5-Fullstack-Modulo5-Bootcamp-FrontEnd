@@ -83,7 +83,7 @@ export default function CreateAccount() {
               type="password"
               name="passwordConfirmation"
               id="passwordConfirmation"
-              placeholder="Corfim the Password"
+              placeholder="Confirm the Password"
               required
               onChange={(event) => setPasswordConfirmation(event.target.value)}
             />

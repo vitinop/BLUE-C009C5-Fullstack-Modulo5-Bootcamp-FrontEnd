@@ -1,7 +1,5 @@
 import './SalesMetaverse.css';
-import { BsArrowUpCircle } from 'react-icons/bs';
 import Relations from '../../components/Relations/Relations';
-
 
 export default function SalesMetaverse() {
     return(
@@ -13,13 +11,6 @@ export default function SalesMetaverse() {
 
         <Relations />
 
-        
-        <div className='sales-button'>
-            <a href='/salescategories'>
-                <button className='button-continues' type='submit'>Continue</button>
-            </a>
-            &nbsp;<BsArrowUpCircle />
-        </div>
     </div>
         
     </div>

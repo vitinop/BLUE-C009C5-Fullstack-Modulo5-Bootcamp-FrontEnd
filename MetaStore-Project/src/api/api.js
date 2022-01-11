@@ -1,5 +1,5 @@
 const Api = {
-    apiUrl: 'https://metastoreteste1.herokuapp.com/api/user',
+    apiUrl: 'http://localhost:3000',
     fetchGetAll: () => fetch(Api.apiUrl),
     fetchGetById: id => fetch(`${Api.apiUrl}/${id}`),
     fetchPost:(metastore) => {

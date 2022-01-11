@@ -16,8 +16,8 @@ export default function Google() {
             </div>
 
             <GoogleCategories />
-            <label>Cardboard</label>
-            <Card alt='cardbord' />
+            <label>Assessories</label>
+            <Card alt='assessorie' />
 
         </div>
     )

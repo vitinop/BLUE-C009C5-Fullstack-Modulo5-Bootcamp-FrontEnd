@@ -34,7 +34,7 @@ const ProductView = (props) => {
         const result = await response.json();
         alert(result.message);
         props.history.push('/');
-        }catch {alert('Algo deu errado, favor verificar.');
+        }catch {alert('Something went wrong, please check.');
         }
     }
 
@@ -44,7 +44,7 @@ const ProductView = (props) => {
             <div className="row">
                 <div className="col">
                     <img src={product.image} alt={product.name}/>
-                    <p className="text-center">{product.name}</p>
+                    <p className="text-center">{product.name_product}</p>
                 
                     <p className="text-center">Description: {product.description}</p>
 

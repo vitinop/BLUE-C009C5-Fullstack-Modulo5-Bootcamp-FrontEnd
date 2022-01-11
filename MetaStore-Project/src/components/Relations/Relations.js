@@ -1,20 +1,56 @@
 import './Relations.css';
-import { IoIosArrowForward } from 'react-icons/io'
 
 export default function Relations(){
     return(
         <div className='relations-father'>
             <div className='relations-title'>
-                <h3>Nome da relação</h3>
+                <h3>Relation Name</h3>
             </div>
 
-            <div className='relations-item'>
-                    <li className='li-relations'>Meta(Oculos)<IoIosArrowForward/></li>
-                    <li className='li-relations'>Omniverse<IoIosArrowForward/></li>
-                    <li className='li-relations'>Nikeland<IoIosArrowForward/></li>
-                    <li className='li-relations'>Roblox<IoIosArrowForward/></li>
-                    <li className='li-relations'>Sandbox<IoIosArrowForward/></li>
-            </div>
+            <div className='relationsMetaverses'>
+            <a href='/descentraland'>Descentraland</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/fortnite'>Fortnite</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/google'>Google</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/meta'>Meta</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/minerals'>Minerals</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/nba'>NBA</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/nexus'>Nexus</a>
+
+        </div>
+
+        <div className='relationsMetaverses'>
+            <a href='/roblox'>Roblox</a>
+
+        </div>
+        
+        <div className='relationsMetaverses'>
+            <a href='/thesandbox'>The Sandbox</a>
+
+        </div>
         </div>
 
     )

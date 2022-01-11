@@ -22,7 +22,7 @@ export default function Wishlist() {
         axios.get('/product/myWishList', config)
         .then(response => {
             setNotLoggend(false)
-            setWishList(response.data.games)
+            setWishList(response.data.products)
         })
         }
     }, [mounted])
@@ -35,8 +35,8 @@ export default function Wishlist() {
                 <Card 
                     id={product.id}
                     image={product.image}
-                    title={product.name}
-                    preco={product.price}
+                    title={product.name_product}
+                    price={product.price}
                     key={product.id}
                 />
                 ))
