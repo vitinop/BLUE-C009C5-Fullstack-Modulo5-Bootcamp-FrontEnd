@@ -13,13 +13,11 @@ import PasswordChangePassword from "./pages/PasswordRecovery/PasswordChangePassw
 import Team from "./pages/Team/Team";
 import Friends from "./pages/Friends/Friends";
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions';
-import SignLanguage from './components/SignLanguage/SignLanguage';
 import SalesDescription from './pages/Sales/SalesDescription.js';
 import SalesMetaverse from './pages/Sales/SalesMetaverse.js';
 import SalesCategories from './pages/Sales/SalesCategories.js';
 import SalesPrice from './pages/Sales/SalesPrice.js';
 import Myaccount from './pages/Myaccount/Myaccount.js';
-import ArrowUp from './components/ArrowUp/ArrowUp';
 import Modal3D from './pages/Modal3D/Modal3D.js';
 import ItemSearch from './pages/Search/ItemSearch.js';
 import MetaversesRelations from './pages/Metaverses/MetaversesRelations';
@@ -36,6 +34,7 @@ import Payment from './pages/Payment/Payment';
 import SatisfactionSurvey from './pages/SatisfactionSurvey/SatisfactionSurvey';
 import PersonalData from './pages/Myaccount/PersonalData/PersonalData';
 import ProductAdd from './pages/ProductAdd/ProductAdd';
+import ProductView from './pages/ProductView/ProductView';
 import RecentSearch from './pages/Search/RecentSearch';
 import Search from './pages/Search/Search';
 import BarSearch from './components/BarSearch/BarSearch';
@@ -53,9 +52,29 @@ import NBA from './pages/Metaverses/NBA/NBA';
 import Descentraland from './pages/Metaverses/Descentraland/Descentraland';
 import Minerals from './pages/Metaverses/Minerals/Minerals';
 import WishList from './pages/Wishlist/Wishlist';
+import ProductEdit from './pages/ProductEdit/ProductEdit';
+import Metaverse from './pages/Metaverse/MetaverseConcept';
+import DescentralandEvents from './pages/Metaverses/Descentraland/DescentralandEvents';
+import DescentralandLand from './pages/Metaverses/Descentraland/DescentralandLand';
+import GoogleAssessories from './pages/Metaverses/Google/GoogleAssessories';
+import FortniteShows from './pages/Metaverses/Fortnite/FortniteShows';
+import MetaAssessories from './pages/Metaverses/Meta/MetaAssessories';
+import MetaWorkRoom from './pages/Metaverses/Meta/MetaWorkRoom';
+import MineralsMarth from './pages/Metaverses/Minerals/MineralsMarth';
+import MineralsMoon from './pages/Metaverses/Minerals/MineralsMoon';
+import NBAGames from './pages/Metaverses/NBA/NBAGames';
+import NBAAssessories from './pages/Metaverses/NBA/NBAAssessories';
+import NexusCorporateTraining from './pages/Metaverses/Nexus/NexusCorporateTraining';
+import NexusEvents from './pages/Metaverses/Nexus/NexusEvents';
+import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
+import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
+import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
+import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
+
+
 import '@google/model-viewer';
 
-axios.defaults.baseURL = 'https://metastoreteste1.herokuapp.com';
+axios.defaults.baseURL = 'http://localhost:3000';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
@@ -97,6 +116,7 @@ ReactDOM.render(
         <Route path="/payment" element={<Payment />} />
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />
         <Route path="/productAdd" element={<ProductAdd />} />
+        <Route path="/productView" element={<ProductView />} />
         <Route path="/search" element={<Search />} />
         <Route path="/fortnite" element={<Fortnite />} />
         <Route path="/wallet" element={<Wallet />} />
@@ -110,11 +130,30 @@ ReactDOM.render(
         <Route path="/descentraland" element={<Descentraland />} />
         <Route path="/minerals" element={<Minerals />} />
         <Route path="/wishlist" element={<WishList />} />
+        <Route path="/productedit" element={<ProductEdit />} />
+        <Route path="/metaverseconcept" element={<Metaverse />} />
+        <Route path="/descentralandevents" element={<DescentralandEvents />} />
+        <Route path="/descentralandland" element={<DescentralandLand />} />
+        <Route path="/googleassessories" element={<GoogleAssessories />} />
+        <Route path="/fortniteshows" element={<FortniteShows />} />
+        <Route path="/metaAssessories" element={<MetaAssessories />} />
+        <Route path="/metaWorkRoom" element={<MetaWorkRoom />} />
+        <Route path="/mineralsMarth" element={<MineralsMarth />} />
+        <Route path="/mineralsMoon" element={<MineralsMoon />} />
+        <Route path="/nbaAssessories" element={<NBAAssessories />} />
+        <Route path="/nbaGames" element={<NBAGames />} />
+        <Route path="/nexusCorporateTraining" element={<NexusCorporateTraining />} />
+        <Route path="/nexusEvents" element={<NexusEvents />} />
+        <Route path="/robloxGames" element={<RobloxGames />} />
+        <Route path="/robloxAssessories" element={<RobloxAssessories />} />
+        <Route path="/theSandboxLand" element={<TheSandboxLand />} />
+        <Route path="/theSandboxRealState" element={<TheSandboxRealState />} />
+
+        
+
       </Routes>
     </BrowserRouter>
-    <div className="center-signs">&nbsp;
-      <p><ArrowUp /></p> &nbsp;
-    </div>
+
     <Footer />
   </React.StrictMode>,
   document.getElementById("root")

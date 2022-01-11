@@ -9,15 +9,15 @@ const ProductAdd = (props) => {
   const history = props.history;
   const handleSubmit = async (evento) => {
     evento.preventDefault();
-    const main_image = evento.target.main_image.value; 
-    const product_name = evento.target.product_name.value;
+    const image = evento.target.main_image.value; 
+    const name_product = evento.target.name_product.value;
     const description = evento.target.description.value;
     const price = evento.target.price.value;
 
 
     const product = {
-      main_image,
-      product_name,
+      image,
+      name_product,
       description,
       price
     }
@@ -47,13 +47,13 @@ const ProductAdd = (props) => {
 
               <div className="add-form">
                   <label id="lab">Image: </label>
-                  <input type="text" id="image" name="main_image" placeholder="Write the url of image of product" onBlur={(e) => handleChange(e)} className="main_image"/>
-                  { !product["main_image"] ? <span className="emptyText"></span> : ""}
+                  <input type="text" id="image" name="image" placeholder="Write the url of image of product" onBlur={(e) => handleChange(e)} className="image"/>
+                  { !product["image"] ? <span className="emptyText"></span> : ""}
               </div>
 
               <div className="add-form">
                   <label id="lab">Name: </label>
-                  <input type="text" id="name" name="product_name" placeholder="Write the name of Product" onBlur={(e) => handleChange(e)} className="product_name"/>{ !product["product_name"]  ? <span className="emptyText"></span> : ""}
+                  <input type="text" id="name" name="name_product" placeholder="Write the name of Product" onBlur={(e) => handleChange(e)} className="name_product"/>{ !product["name_product"]  ? <span className="emptyText"></span> : ""}
               </div>
 
               <div className="add-form">
@@ -63,7 +63,7 @@ const ProductAdd = (props) => {
 
               <div className="add-form">
                   <label id="lab">Price: </label>
-                  <input name="price" onChange={(e) => handleChange(e)}>
+                  <input name="price" placeholder="Write the price of product" onChange={(e) => handleChange(e)}>
                   </input>
                   { !product["priority"] ? <span className="emptyText"></span> : ""}
               </div>
