@@ -13,7 +13,7 @@ export default function Product() {
     const [mounted, setMounted] = useState(false)
 
     const getData = async () => {
-        await axios.get(`/product/find/${id}`)
+        await axios.get(`/product/findMany/${id}`)
         .then(response => {
         if(mounted) {
             setProduct(response.data)

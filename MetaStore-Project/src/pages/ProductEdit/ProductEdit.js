@@ -52,7 +52,7 @@ export default function ProductEdit(props) {
                     <input type="image" alt='' id="image" value={product.image} name="image" placeholder="Write the url of image of product" onChange={handleFieldsChange} className="image"></input>
 
                     <label>Name :</label>
-                    <input type='text' value={product.name} name='name' placeholder='new name' onChange={handleFieldsChange} className="name"></input>
+                    <input type='text' value={product.name_product} name='name' placeholder='new name' onChange={handleFieldsChange} className="name"></input>
 
                     <label>Price :</label>
                     <input type='text' name='price' placeholder='new price' onChange={handleFieldsChange} className="price"></input>

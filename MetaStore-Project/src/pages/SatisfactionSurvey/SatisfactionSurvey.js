@@ -9,11 +9,11 @@ export default function SatisfactionSurvey() {
     return(
         <div className='satisfaction-survey-father'>
             <div className='satisfaction-survey-title'>
-                <h1>LINKAR NOME DO USUÁRIO, Congratulations on your new acquisition!</h1>
+                <p>Congratulations on your new acquisition!</p>
             </div>
 
             <div className='satisfaction-survey-subtitle'>
-                <h5>What did you think of this experience?</h5>
+                <p>What did you think of this experience?</p>
             </div>
 
             <div className='satisfaction-survey-emoticon'>
@@ -22,16 +22,16 @@ export default function SatisfactionSurvey() {
             </div>
 
             <div className='satisfaction-survey-description'>
-                <h5>We are in constant evolution, if you want to contribute, we promise to consider your opinion with great care.</h5>
+                <p>We are in constant evolution, if you want to contribute, we promise to consider your opinion with great care.</p>
             </div>
 
             <div className='satisfaction-survey-opinion-sent'>
-                <h5>Opinion sent successfully</h5>
+                <p>Opinion sent successfully</p>
             </div>
 
             <div className='satisfaction-survey-button'>
-                <Button />
-                <h1>Incluir texto argumento no botão "Back to Home"</h1>
+                <a href='/'>Back to home</a>
+                
             </div>
         </div>
     )

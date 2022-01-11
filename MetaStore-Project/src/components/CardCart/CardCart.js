@@ -11,9 +11,9 @@ export default function CardCart() {
             </div>
             <div className="col-md-8">
             <div className="card-body">
-                <h5 className="card-title">Produto: </h5>
-                <p className="card-text">Metaverso: </p>
-                <p className="card-text"><small className="text-muted">Valor: </small></p>
+                <h5 className="card-title">Product: </h5>
+                <p className="card-text">Metaverse: </p>
+                <p className="card-text"><small className="text-muted">Price: </small></p>
             </div>
             </div>
         </div>
