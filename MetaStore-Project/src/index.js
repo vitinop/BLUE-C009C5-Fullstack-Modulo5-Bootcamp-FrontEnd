@@ -27,7 +27,10 @@ import MetaversesCatalog from './pages/Metaverses/MetaversesCatalog';
 import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
-import MySells from './pages/Myaccount/MySells/MySells';
+import MySells1 from './pages/Myaccount/MySells1/MySells1';
+import MySells2 from './pages/Myaccount/MySells2/MySells2';
+import MyShopping1 from './pages/Myaccount/MyShopping1/MyShopping1';
+import MyShopping2 from './pages/Myaccount/MyShopping2/MyShopping2';
 import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/PasswordRecoveryAuthorizedChange";
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
@@ -70,7 +73,7 @@ import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
 import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
 import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
 import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
-
+import Adds from './pages/Adds/Adds';
 
 import '@google/model-viewer';
 
@@ -92,7 +95,10 @@ ReactDOM.render(
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
         <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
-        <Route path="/myaccount/mysells" element={<MySells />} />{/* revisar */}
+        <Route path="/myaccount/mysells1" element={<MySells1 />} />{/* revisar */}
+        <Route path="/myaccount/mysells2" element={<MySells2 />} />{/* revisar */}
+        <Route path="/myaccount/myshopping1" element={<MyShopping1 />} />{/* revisar */}
+        <Route path="/myaccount/myshopping2" element={<MyShopping2 />} />{/* revisar */}
         <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
         <Route path="/myaccount" element={<Myaccount />} />{/* revisar */}
         <Route path="/team" element={<Team />} /> {/* revisar */}
@@ -143,6 +149,7 @@ ReactDOM.render(
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
+        <Route path="/Adds" element={<Adds />} />{/* revisar */}
         
         
         <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
