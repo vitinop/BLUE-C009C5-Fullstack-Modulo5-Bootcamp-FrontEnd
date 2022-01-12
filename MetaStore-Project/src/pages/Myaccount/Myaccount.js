@@ -11,42 +11,36 @@ export default function Myaccount() {
     <div className="center-myaccount">
       <div className="myaccount-links">
         <div className="centerProfile">
-        <div className="profilePicture">
-          <img
-            src="https://scontent.fcnf1-1.fna.fbcdn.net/v/t1.6435-9/43153085_236278070401620_5144988804741857280_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGUrcH63o-gvw0NTDhkppiYok31_Q4rm-eiTfX9Diub5w5ihZPJCoKUwm1_7strXvV9jOsiLWfkAnz2UmtZqeeS&_nc_ohc=eHVNSPgsdUkAX-3-CEP&tn=D8Q_2umTMuXIjTfD&_nc_ht=scontent.fcnf1-1.fna&oh=00_AT8bIRWVTifJ0K_fcrbaam7IAL1-Dr7XrguhUpdRq3i1Xg&oe=61E30589"
-            alt="User's ProfilePicture"
-          ></img>
-        </div>
+          <div className="profilePicture">
+            <img
+              src="https://scontent.fcnf1-1.fna.fbcdn.net/v/t1.6435-9/43153085_236278070401620_5144988804741857280_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGUrcH63o-gvw0NTDhkppiYok31_Q4rm-eiTfX9Diub5w5ihZPJCoKUwm1_7strXvV9jOsiLWfkAnz2UmtZqeeS&_nc_ohc=eHVNSPgsdUkAX-3-CEP&tn=D8Q_2umTMuXIjTfD&_nc_ht=scontent.fcnf1-1.fna&oh=00_AT8bIRWVTifJ0K_fcrbaam7IAL1-Dr7XrguhUpdRq3i1Xg&oe=61E30589"
+              alt="User's ProfilePicture"
+            ></img>
+          </div>
         </div>
         <div className="profileInformation">
           Hi,User!
           <div className="container-Showcase">
-            <a
-              className=""
-              href="/myaccount/personal-data"
-              id="to-personal-data"
-              aria-label="password-recovery-checkout"
-            >
+            <a href="/myaccount/personal-data">
               <li> Seller's Showcase </li>{" "}
             </a>
-            &nbsp;<FaRegUser />
+            &nbsp;
+            <FaRegUser />
           </div>
         </div>
       </div>
 
       <div className="container-userOptions">
-        <a
-          className=""
-          href="/myaccount/personal-data"
-          id="to-personal-data"
-          aria-label="password-recovery-checkout"
-        >
+        <a href="/myaccount/personal-data">
           <li>Personal Data </li>{" "}
         </a>
         <FaRegUser />
       </div>
       <div className="container-userOptions">
-        <li>Wallet </li> <BsWallet />
+        <a href="/myaccount/wallet">
+          <li>Wallet </li>{" "}
+        </a>
+        <BsWallet />
       </div>
       <div className="container-userOptions">
         <li>My Sells </li> <BiDollar />
@@ -61,13 +55,16 @@ export default function Myaccount() {
         <li>Favorite Itens</li> <BiHeart />
       </div>
       <div className="container-userOptions">
-        <a href='/friends'>
-          <li>Invite friends</li> <AiOutlineUsergroupAdd />
+        <a href="/invitefriends">
+          <li>Invite friends</li>{" "}
         </a>
-        
+        <AiOutlineUsergroupAdd />
       </div>
       <div className="container-userOptions">
-        <li>Account settings</li> <BsGear />
+        <a href="/myaccount/accountsettings">
+          <li>Account settings</li>
+        </a>{" "}
+        <BsGear />
       </div>
 
       <div className="container-userOptions">

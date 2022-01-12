@@ -100,9 +100,7 @@ export default function CreateAccount() {
               MetaStore Subscriber Agreement?
             </a>
           </div>
-          <button className="save" type="submit">
-            Continue
-          </button>
+          <input type="submit" value="Continue" />
         </form>
       </main>
     </div>
