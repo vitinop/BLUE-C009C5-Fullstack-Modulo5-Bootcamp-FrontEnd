@@ -26,7 +26,6 @@ export default function CreateAccount() {
       average_qualification: 0,
       counter_views_store: 0,
       role: "user"
-    
     };
 
     axios.post("api/user", user).then((response) => console.log(response));
