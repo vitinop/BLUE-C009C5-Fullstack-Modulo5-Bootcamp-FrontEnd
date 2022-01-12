@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function CreateAccount() {
   const [name, setName] = useState("");
-  const [nick_name, setNickname] = useState("");
+  const [nickname, setNickname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
@@ -14,18 +14,19 @@ export default function CreateAccount() {
 
     const user = {
       name: name,
-      surname: '',
-      description:'',
-      banner:'',
-      role: 'user',
-      status:'ativo',
-      average_qualification : '0',
-      seller: true,
-      profile_picture: '',
-      nick_name: nick_name,
+      nick_name: nickname,
       email: email,
       password: password,
       passwordConfirmation: passwordConfirmation,
+      profile_picture: "https://unileao.edu.br/wp-content/themes/portalv2.0/img/perfil.png",
+      description: "Empty description",
+      status: "Active",
+      seller: true,
+      banner: "https://dtechted.com/wp-content/uploads/2021/11/meta-banner.webp",
+      average_qualification: 0,
+      counter_views_store: 0,
+      role: "user"
+    
     };
 
     axios.post("api/user", user).then((response) => console.log(response));
