@@ -41,7 +41,7 @@ const ProductView = (props) => {
     return (
         <div className="container flex-grow-1">
             
-            <div className="row">
+            <div className="rows">
                 <div className="col">
                     <img src={product.image} alt={product.name}/>
                     <p className="text-center">{product.name_product}</p>

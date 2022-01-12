@@ -1,15 +1,11 @@
-.card-title{
-    font-weight: 800;
-}
-
-.center-card3{
+.center-card3D{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
 }
 
-.center-card3-father{
+.center-card3D-father{
     display:flex ;
     align-items: center;
     justify-content: center;
@@ -17,7 +13,14 @@
     background-color: white;
 }
 
-.card3img{
+.card3D{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card3Dimg{
     width: 100%;
     padding: 0;
     margin: 0;
