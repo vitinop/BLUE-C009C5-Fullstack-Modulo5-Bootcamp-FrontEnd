@@ -1,4 +1,5 @@
 import "./index.css";
+import Adds from './pages/Adds/Adds';
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -73,8 +74,6 @@ import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
 import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
 import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
 import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
-import Adds from './pages/Adds/Adds';
-
 import '@google/model-viewer';
 
 axios.defaults.baseURL = 'http://localhost:3000';
