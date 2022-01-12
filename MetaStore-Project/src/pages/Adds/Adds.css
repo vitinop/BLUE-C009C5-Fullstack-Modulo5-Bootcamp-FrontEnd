@@ -1,0 +1,50 @@
+.adds-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adds-father{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.adds-video{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem ;
+}
+
+.adds-banner{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border-top: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 30%, rgba(255,255,255,1) 100%);
+    border-bottom: 0.2rem solid  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 70%, rgba(255,255,255,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(204, 204, 204,1) 50%, rgba(245,245,245,1) 100%);
+}
+
+.adds-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
