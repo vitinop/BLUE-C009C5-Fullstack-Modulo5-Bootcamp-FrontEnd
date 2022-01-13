@@ -15,11 +15,11 @@ export default function TheSandbox() {
                 <p>A virtual universe where you can buy land and create virtual items that add to that heightened experience.</p>
             </div>
 
-            <TheSandboxCategories />
             <label>Land</label>
-            <Card alt='land' />
+            <a href='/theSandboxLand'><Card alt='land' /></a>
+            
             <label>Real estate</label>
-            <Card alt='real estate' />
+            <a href='/theSandboxRealState'><Card alt='land' /></a>
             
         </div>
     )

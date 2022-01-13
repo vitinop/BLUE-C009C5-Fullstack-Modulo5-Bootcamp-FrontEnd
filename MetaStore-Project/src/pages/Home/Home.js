@@ -33,14 +33,15 @@ export default function Home() {
   return (
     <div classname="home-father">
       
-      <h3>"Todos os metaversos em um único lugar"</h3>
+      <h3>"All metaverses in one place"</h3>
       <Slider>
         <Card3Row />
       </Slider>
         
       
 
-      <Container title='Mais relevantes para você'>
+      <Container title='Most relevant to you
+'>
             <a href='/metaverseconcept'>What is the metaverse?</a>
             {
             products.map(product => (
