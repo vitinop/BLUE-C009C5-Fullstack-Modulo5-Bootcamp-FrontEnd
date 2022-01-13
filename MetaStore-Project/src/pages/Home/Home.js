@@ -15,6 +15,7 @@ export default function Home() {
   const [products, setProducts] = useState([]);
     const [mounted, setMounted] = useState(false);
 
+  
     const getData = async () => {
         await axios.get("/product/findMany").then((response) => {
         if (mounted) {
@@ -22,27 +23,27 @@ export default function Home() {
         }
         });
     };
-
+  
     useEffect(() => {
         setMounted(true);
         getData();
     }, [mounted])
     
     console.log(products);
-
+  
   return (
     <div classname="home-father">
       
-      <h3>"All metaverses in one place"</h3>
+      <h3 >"All metaverses in one place"</h3>
       <Slider>
         <Card3Row />
       </Slider>
         
       
+      <a href='/metaverseconcept' className="what-is">What is the metaverse?</a>
 
-      <Container title='Most relevant to you
-'>
-            <a href='/metaverseconcept'>What is the metaverse?</a>
+      <Container title='Most relevant to you'>
+            
             {
             products.map(product => (
             <Card 
@@ -65,13 +66,16 @@ export default function Home() {
           </div>
 
       
+      <span className="span-home">Direitos autorais MetaStore - 2021 </span>
+
+      
       <div className="home-midias">
         <FiFacebook />&nbsp;
         <FaInstagram />&nbsp;
         <MdOutlineEmail />&nbsp;
         <FaWhatsapp />&nbsp;
       </div>
-      <span>Direitos autorais metastore&copy; - 2021 </span>
+
     </div>
   );
 }

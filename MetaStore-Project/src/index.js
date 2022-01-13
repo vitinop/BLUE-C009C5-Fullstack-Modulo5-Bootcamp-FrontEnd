@@ -72,8 +72,8 @@ import NexusCorporateTraining from './pages/Metaverses/Nexus/NexusCorporateTrain
 import NexusEvents from './pages/Metaverses/Nexus/NexusEvents';
 import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
 import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
-import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
-import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
+import TheSandboxLand from './pages/Metaverses/TheSandbox/TheSandboxLand';
+import TheSandboxHouses from './pages/Metaverses/TheSandbox/TheSandboxHouses';
 import '@google/model-viewer';
 
 axios.defaults.baseURL = 'http://localhost:3000';
@@ -83,7 +83,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <BarSearch />
-
+  
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} /> {/* revisar */}
@@ -176,12 +176,12 @@ ReactDOM.render(
         <Route path="/robloxGames" element={<RobloxGames />} />{/* revisar */}
         <Route path="/robloxAssessories" element={<RobloxAssessories />} />{/* revisar */}
         <Route path="/theSandboxLand" element={<TheSandboxLand />} />{/* revisar */}
-        <Route path="/theSandboxRealState" element={<TheSandboxRealState />} />{/* revisar */}
+        <Route path="/theSandboxHouses" element={<TheSandboxHouses />} />{/* revisar */}
 
       </Routes>
     </BrowserRouter>
-
     <Footer />
+    
   </React.StrictMode>,
   document.getElementById("root")
 )

@@ -1,0 +1,25 @@
+.search-father{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.search-list-item{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    width: 300px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #6869adce;
+    margin: 1rem;
+    font-size: 25px;
+
+}

@@ -252,7 +252,8 @@ function ProductDetail() {
               <Amount>1</Amount>
               
             </AmountContainer>
-            <Button>ADD TO CART</Button>
+            <a href='/cart'><button type='submit '>ADD TO CART</button></a>
+            
           </AddContainer>
         </InfoContainer>
       </Wrapper>

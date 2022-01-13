@@ -1,22 +1,23 @@
-/* .search-slider{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 4rem;
-    
-
-} */
-
-h3{
-    padding: 10px;
+.what-is{
+    margin-top:3rem;
 }
 
-.midias{
-    display: block;
+.home-father{
+    padding: 10px;
+ 
+}
+.home-midias{
+   
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding-bottom: 4rem;
-    padding-left: 1rem;
+    justify-content: center;
+    color: #6869ad;
+    font-size: 25px;
+    margin: 0 1rem 5rem 18rem;
+   
+}
+
+
+.span-home{
+    margin: 5rem 1rem 5rem 10rem;
+    font-size: 20px;
 }

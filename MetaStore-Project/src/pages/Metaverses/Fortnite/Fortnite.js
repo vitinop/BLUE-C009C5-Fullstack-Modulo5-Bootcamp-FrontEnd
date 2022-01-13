@@ -1,11 +1,10 @@
 import './Fortnite.css';
-import Card from '../../../components/Card/Card';
-import FortniteCategories from './FortniteCategories';
+
 
 export default function Fortnite() {
     return(
         <div className='fortnite-father'>
-            <div className='fortnite-title'>
+            <div className='fortnite-logo'>
                 <img src='https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/35257.png' alt='fortnite-logo'></img>
                 <p>Fortnite</p>
             </div>
@@ -15,13 +14,11 @@ export default function Fortnite() {
                 <p>Fortnite has evolved from a simple game to a socialization platform that even promotes concerts by famous musicians.</p>
             </div>
 
-            <FortniteCategories />
-            <label>Ariana Grande</label>
-            <Card alt='Ariana Grande' />
-            <label>Travis Scott</label>
-            <Card alt='Travis Scott' />
-            <label>Steve Aoki</label>
-            <Card alt='Steve Aoki' />
+            <div className='fortnite-cat'>
+                <a className='fortnite-categories' href='/fortniteshows'>Shows</a>
+                 
+            </div>
+
 
 
         </div>

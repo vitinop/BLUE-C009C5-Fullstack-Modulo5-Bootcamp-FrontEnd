@@ -1,11 +1,10 @@
 import './Roblox.css';
-import Card from '../../../components/Card/Card';
-import RobloxCategories from './RobloxCategories';
+
 
 export default function Roblox() {
     return(
         <div className='roblox-father'>
-            <div className='roblox-title'>
+            <div className='roblox-logo'>
                 <img src='https://logosmarcas.net/wp-content/uploads/2020/11/Roblox-Logo.png' alt='roblox-logo'></img>
                 <p>Roblox</p>
             </div>
@@ -15,13 +14,11 @@ export default function Roblox() {
                 <p>Roblox is the name of the 3D gaming platform that allows the user to either play other people's productions or create their own.</p>
             </div>
 
-            <RobloxCategories />
-            <label>Nikeland</label>
-            <Card alt='Nikeland' />
-            <label>Gucci</label>
-            <Card alt='Gucci' />
-            <label>Louis Vitton</label>
-            <Card alt='Louis Vitton' />
+            <div className='roblox-cat'>
+                <a className='roblox-categories' href='/robloxAssessories'>Assessories</a>
+                
+                <a className='roblox-categories' href='/robloxGames'>Games</a>   
+            </div>
 
 
         </div>
