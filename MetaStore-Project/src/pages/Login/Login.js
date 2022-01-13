@@ -1,36 +1,65 @@
 import "./Login.css";
-import axios from "axios";
-import React, { useState } from "react";
-
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import authLogin from "../../api/authLogin";
 export default function Login() {
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
 
-  const handleSubmit = (event) => {
+  const [ email, setEmail ] = useState("")   
+  const [ password, setPassword ] = useState("")
+  const [ user, setUser] = useState("");
+  const navigate = useNavigate();
+
+  
+  const clearInput = () => {
+    setEmail("")
+    setPassword("")
+  }
+
+  const getDada = (event) => {
     event.preventDefault();
-    const login = {
+    
+    const data = {
       email: email,
-      password: password,
-    };
-    axios.post("auth/login", login).then((response) => {
-      const token = response.token;
-      localStorage.setItem("token", token);
-    });
-  };
+      password: password
+    }
+    
+    authLogin.authenticate(data)
+    .then( (res) => {
+      setUser(res.data)
+    })
+    .catch( (err) => {
+      alert('Incorrect username or password')
+    })
+   
+    clearInput()
+
+  }
+
+
+  useEffect( () => {
+    if(user) {
+      authLogin.saveDataUser(user)
+      navigate('/profile')
+
+    }
+  }, [navigate, user])
+  
+
 
   return (
     <div className="center">
       <main className="loginContainer">
         <h2>Login</h2>
-        <form className="login-form" onSubmit={handleSubmit}>
+        <form className="login-form" onSubmit={getDada}>
           <div className="input-field">
             <input
               type="email"
-              placeholder="email@example.com"
+              placeholder="Type your email@example.com"
               name="userEmail"
               id="userEmail"
               required
-              onChange={(event) => setEmail(event.target.value)}
+              value={email}
+              onChange={ event => setEmail(event.target.value)}
             />
           </div>
 
@@ -41,7 +70,8 @@ export default function Login() {
               name="userPassword"
               id="userPassword"
               required
-              onChange={(event) => setPassword(event.target.value)}
+              value={password}
+              onChange={ event => setPassword(event.target.value)}
             />
           </div>
 

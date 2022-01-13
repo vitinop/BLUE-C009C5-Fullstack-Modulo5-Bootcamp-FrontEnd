@@ -88,12 +88,14 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} /> {/* revisar */}
         <Route path="/login" element={<Login />} />
+      
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
         <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
         <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
+        <Route path="/myaccount/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/myaccount/mysells1" element={<MySells1 />} />{/* revisar */}
         <Route path="/myaccount/mysells2" element={<MySells2 />} />{/* revisar */}
         <Route path="/myaccount/myshopping1" element={<MyShopping1 />} />{/* revisar */}
