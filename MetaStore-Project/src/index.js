@@ -1,4 +1,5 @@
 import "./index.css";
+import Adds from './pages/Adds/Adds';
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -27,7 +28,10 @@ import MetaversesCatalog from './pages/Metaverses/MetaversesCatalog';
 import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
-import MySells from './pages/Myaccount/MySells/MySells';
+import MySells1 from './pages/Myaccount/MySells1/MySells1';
+import MySells2 from './pages/Myaccount/MySells2/MySells2';
+import MyShopping1 from './pages/Myaccount/MyShopping1/MyShopping1';
+import MyShopping2 from './pages/Myaccount/MyShopping2/MyShopping2';
 import PasswordRecoveryAuthorizedChange from "./pages/Myaccount/AccountSettings/PasswordRecoveryAuthorizedChange";
 import AccountSettings from './pages/Myaccount/AccountSettings/AccountSettings';
 import Payment from './pages/Payment/Payment';
@@ -40,8 +44,8 @@ import Search from './pages/Search/Search';
 import BarSearch from './components/BarSearch/BarSearch';
 import SalesPublic from './pages/Sales/SalesPublic';
 import Fortnite from './pages/Metaverses/Fortnite/Fortnite';
-import Wallet from "./pages/Myaccount/Wallet/Wallet";
 import Cart from "./pages/Cart/Cart";
+import Wallet from "./pages/Myaccount/Wallet/Wallet";
 import axios from 'axios';
 import Google from './pages/Metaverses/Google/Google';
 import Meta from './pages/Metaverses/Meta/Meta';
@@ -68,10 +72,8 @@ import NexusCorporateTraining from './pages/Metaverses/Nexus/NexusCorporateTrain
 import NexusEvents from './pages/Metaverses/Nexus/NexusEvents';
 import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
 import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
-import TheSandboxLand from './pages/Metaverses/TheSandbox/TheSandboxLand';
-import TheSandboxRealState from './pages/Metaverses/TheSandbox/TheSandboxRealState';
-
-
+import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
+import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
 import '@google/model-viewer';
 
 axios.defaults.baseURL = 'http://localhost:3000';
@@ -85,25 +87,29 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} /> {/* revisar */}
-        <Route path="/login" element={<Login />} />{/* revisar */}
+        <Route path="/login" element={<Login />} />
+      
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
-        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />{/* revisar */}
+        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
         <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
         <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
         <Route path="/myaccount/personaldata" element={<PersonalData />} />{/* revisar */}
-        <Route path="/myaccount/mysells" element={<MySells />} />{/* revisar */}
+        <Route path="/myaccount/wallet" element={<Wallet />} />{/* revisar */}
+        <Route path="/myaccount/mysells1" element={<MySells1 />} />{/* revisar */}
+        <Route path="/myaccount/mysells2" element={<MySells2 />} />{/* revisar */}
+        <Route path="/myaccount/myshopping1" element={<MyShopping1 />} />{/* revisar */}
+        <Route path="/myaccount/myshopping2" element={<MyShopping2 />} />{/* revisar */}
         <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
         <Route path="/myaccount" element={<Myaccount />} />{/* revisar */}
         <Route path="/team" element={<Team />} /> {/* revisar */}
-        <Route path="/friends" element={<Friends />} />{/* revisar */}
+        <Route path="/invitefriends" element={<Friends />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
         <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
         <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
         <Route path="/salescategories" element={<SalesCategories />} />{/* revisar */}
         <Route path="/salesprice" element={<SalesPrice />} />{/* revisar */}
         <Route path="/salespublic" element={<SalesPublic />} />{/* revisar */}
-
         <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
         <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
         <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
@@ -118,12 +124,31 @@ ReactDOM.render(
         <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
         <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/search" element={<Search />} />{/* revisar */}
-        <Route path="/wallet" element={<Wallet />} />{/* revisar */}
         <Route path="/cart" element={<Cart />} />{/* revisar */}
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
-        <Route path="/invitefriends" element={<Friends />} />{/* revisar */}
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
+        <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
+        <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
+        <Route path="/salescategories" element={<SalesCategories />} />{/* revisar */}
+        <Route path="/salesprice" element={<SalesPrice />} />{/* revisar */}
+        <Route path="/salespublic" element={<SalesPublic />} />{/* revisar */}
+        <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
+        <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
+        <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
+        <Route path="/metaversesRelations" element={<MetaversesRelations />} />{/* revisar */}
+        <Route path="/categoriesRelations" element={<CategoriesRelations />} />{/* revisar */}
+        <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />{/* revisar */}
+        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />{/* revisar */}
+        <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />{/* revisar */}
+        <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
+        <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}
+        <Route path="/payment" element={<Payment />} />{/* revisar */}
+        <Route path="/wishlist" element={<WishList />} />{/* revisar */}
+        <Route path="/productedit" element={<ProductEdit />} />{/* revisar */}
+        <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
+        <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
+        <Route path="/Adds" element={<Adds />} />{/* revisar */}
         
         
         <Route path="/thesandbox" element={<TheSandbox />} />{/* revisar */}
@@ -160,4 +185,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 )
-
