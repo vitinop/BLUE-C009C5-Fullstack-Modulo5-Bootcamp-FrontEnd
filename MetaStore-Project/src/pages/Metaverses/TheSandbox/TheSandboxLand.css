@@ -1,4 +1,4 @@
-.thesandbox-father{
+.theSandboxLand-father{
     display: flex;
     width: 90%;
     flex-direction: column;
@@ -6,14 +6,5 @@
     align-items: center;
     text-align: justify;
     margin: 2rem
-
-}
-
-.thesandbox-title img{
-    width: 150px;
-}
-
-.thesandbox-title p{
-    font-size: 20px;
 
 }

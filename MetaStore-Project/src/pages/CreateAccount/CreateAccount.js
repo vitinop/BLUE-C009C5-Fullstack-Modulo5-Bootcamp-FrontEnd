@@ -1,6 +1,7 @@
 import "./CreateAccount.css";
 import axios from "axios";
 import { useState } from "react";
+import Api from '../../api/api';
 
 export default function CreateAccount() {
   const [name, setName] = useState("");
@@ -13,22 +14,23 @@ export default function CreateAccount() {
     event.preventDefault();
 
     const user = {
-      name: name,
-      surname: '',
-      description:'',
-      banner:'',
-      role: 'user',
-      status:'ativo',
       average_qualification : '0',
-      seller: true,
-      profile_picture: '',
-      nick_name: nick_name,
+      banner:'',
+      description:'',
       email: email,
+      name: name,
+      nick_name: nick_name,
       password: password,
       passwordConfirmation: passwordConfirmation,
+      profile_picture: '',
+      role: 'user',
+      seller: true,
+      status:'ativo',
     };
 
-    axios.post("api/user", user).then((response) => console.log(response));
+    console.log(user)
+
+    axios.post("http://localhost:3000/api/user", user).then((response) => console.log(response));
   };
 
   return (
@@ -108,3 +110,5 @@ export default function CreateAccount() {
     </div>
   );
 }
+
+

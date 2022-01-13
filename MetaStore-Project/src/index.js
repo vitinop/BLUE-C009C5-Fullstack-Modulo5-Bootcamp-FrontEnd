@@ -68,8 +68,8 @@ import NexusCorporateTraining from './pages/Metaverses/Nexus/NexusCorporateTrain
 import NexusEvents from './pages/Metaverses/Nexus/NexusEvents';
 import RobloxGames from './pages/Metaverses/Roblox/RobloxGames';
 import RobloxAssessories from './pages/Metaverses/Roblox/RobloxAssessories';
-import TheSandboxLand from './pages/Metaverses/TheSandbox/ThaSandboxLand';
-import TheSandboxRealState from './pages/Metaverses/TheSandbox/ThaSandboxRealState';
+import TheSandboxLand from './pages/Metaverses/TheSandbox/TheSandboxLand';
+import TheSandboxRealState from './pages/Metaverses/TheSandbox/TheSandboxRealState';
 
 
 import '@google/model-viewer';
@@ -103,6 +103,7 @@ ReactDOM.render(
         <Route path="/salescategories" element={<SalesCategories />} />{/* revisar */}
         <Route path="/salesprice" element={<SalesPrice />} />{/* revisar */}
         <Route path="/salespublic" element={<SalesPublic />} />{/* revisar */}
+
         <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
         <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
         <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
@@ -122,26 +123,6 @@ ReactDOM.render(
         <Route path="/wishlist" element={<WishList />} />{/* revisar */}
         <Route path="/invitefriends" element={<Friends />} />{/* revisar */}
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />{/* revisar */}
-        <Route path="/salesdescription" element={<SalesDescription />} />{/* revisar */}
-        <Route path="/salesmetaverse" element={<SalesMetaverse />} />{/* revisar */}
-        <Route path="/salescategories" element={<SalesCategories />} />{/* revisar */}
-        <Route path="/salesprice" element={<SalesPrice />} />{/* revisar */}
-        <Route path="/salespublic" element={<SalesPublic />} />{/* revisar */}
-        <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
-        <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
-        <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
-        <Route path="/metaversesRelations" element={<MetaversesRelations />} />{/* revisar */}
-        <Route path="/categoriesRelations" element={<CategoriesRelations />} />{/* revisar */}
-        <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />{/* revisar */}
-        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />{/* revisar */}
-        <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />{/* revisar */}
-        <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
-        <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}
-        <Route path="/payment" element={<Payment />} />{/* revisar */}
-        <Route path="/wishlist" element={<WishList />} />{/* revisar */}
-        <Route path="/productedit" element={<ProductEdit />} />{/* revisar */}
-        <Route path="/satisfactionSurvey" element={<SatisfactionSurvey />} />{/* revisar */}
-        <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
         <Route path="/productView" element={<ProductView />} />{/* revisar */}
         
         
