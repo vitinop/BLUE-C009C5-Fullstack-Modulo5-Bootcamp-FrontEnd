@@ -1,4 +1,4 @@
-import './ThaSandboxLand.css';
+import './TheSandboxLand.css';
 import Card from '../../../components/Card/Card';
 // aceito
 export default function TheSandboxLand(){

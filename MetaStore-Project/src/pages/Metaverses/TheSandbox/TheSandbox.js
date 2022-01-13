@@ -1,13 +1,13 @@
 import './TheSandbox.css';
-import Card from '../../../components/Card/Card';
-import TheSandboxCategories from './TheSandboxCategories';
+
 
 export default function TheSandbox() {
     return(
         <div className='thesandbox-father'>
-            <div className='thesandbox-title'>
+            <div className='thesandbox-logo'>
                 <img src='https://upload.wikimedia.org/wikipedia/fr/b/b7/The_Sandbox_Logo.png' alt='thesandbox-logo'></img>
                 <p>The Sandbox</p>
+                
             </div>
 
             <div className='thesandbox-description'>
@@ -15,11 +15,12 @@ export default function TheSandbox() {
                 <p>A virtual universe where you can buy land and create virtual items that add to that heightened experience.</p>
             </div>
 
-            <label>Land</label>
-            <a href='/theSandboxLand'><Card alt='land' /></a>
+            <div className='thesandbox-cat'>
+                <a className='thesandbox-categories' href='/theSandboxLand'>Lands</a>
+                
+                <a className='thesandbox-categories' href='/theSandboxHouses'>Houses</a>   
+            </div>
             
-            <label>Real estate</label>
-            <a href='/theSandboxRealState'><Card alt='land' /></a>
             
         </div>
     )

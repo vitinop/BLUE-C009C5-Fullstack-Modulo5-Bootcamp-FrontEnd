@@ -1,5 +1,4 @@
 import './Payment.css';
-import Button from '../../components/Button/Button';
 
 
 export default function Payment() {
@@ -39,7 +38,8 @@ export default function Payment() {
             </div>
             
             <div className='payment-button'>
-                <button className="button-payment"> Enviar </button>
+                <a href='/satisfactionSurvey'><button className="button-payment"> Enviar </button></a>
+                
             </div>&nbsp;            
             
         </div>

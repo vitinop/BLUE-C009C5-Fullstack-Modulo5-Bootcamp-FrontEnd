@@ -7,7 +7,9 @@ export default function BarSearch() {
             <div className='barSearch-father'>
                 <form className='barSearch-input'>
                     <input type='text' className='barSearch-text' placeholder='Enter a product name'></input>
-                    <button className='btnSearch'><BiSearch/></button>            
+
+                    <a href='/search'><button className='btnSearch' type='submit'><BiSearch/></button> </a>
+                               
                 </form>
             </div>
         </div>
@@ -15,5 +17,3 @@ export default function BarSearch() {
 
 }
 
-
-            

@@ -93,7 +93,7 @@ const ProductAdd = (props) => {
     // }  
       
     
-    const res = await axios.post('api/product/', product, config)
+    const res = await axios.post('api/product/', product)
     .then(reponse => {
       console.log(reponse)
       alert("product added successfully")
@@ -107,71 +107,60 @@ const ProductAdd = (props) => {
 
   return (
     
-    <>
-      <Container>
-        <Row className="mt-6">
-          <Col
-            lg={5}
-            md={6}
-            sm={12}
-            className="p-5 m-auto shadow-sm rounded-lg">
-        
-        <Form className="rounded p-2 p-sm-3" onSubmit={handleSubmit}>
+    <div>
+        <form className="form-register" onSubmit={handleSubmit}>
           <h3> Product Register</h3>
-          <Form.Group className="mb-3" controlId="formBasicEmail" required>
+          <form className="mb-3" controlId="formBasicEmail" required>
           
-            <Form.Label>Product Name:</Form.Label>
-            <Form.Control type="text" placeholder="Ex: Video Card " 
+            <form>Product Name:</form>
+            <form type="text" placeholder="Ex: Video Card " 
             value={name_product}
             onChange={event => setname_product(event.target.value)}
             />           
-          </Form.Group>
+          </form>
 
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Price</Form.Label>
-            <Form.Control type="text" placeholder="Product's price" 
+          <form className="mb-3" controlId="formBasicPassword">
+            <form>Price</form>
+            <form type="text" placeholder="Product's price" 
             value={price}
             onChange={event => setprice(event.target.value)}
             />
-          </Form.Group>
+          </form>
 
-          <Form.Group className="mb-3" controlId="">
-            <Form.Label>Description</Form.Label>
-            <Form.Control type="text" placeholder="" 
+          <form className="mb-3" controlId="">
+            <form>Description</form>
+            <form type="text" placeholder="" 
             value={description}
             onChange={event => setdescription(event.target.value)}
             />
-          </Form.Group>
+          </form>
           
 
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+          <form className="mb-3" controlId="formBasicEmail">
 
-            <Form.Label>Specifications:</Form.Label>
-            <Form.Control type="text" placeholder="Ex: Galax" 
+            <form>Specifications:</form>
+            <form type="text" placeholder="Ex: Galax" 
             value={specifications}
 
             onChange={event => setspecifications(event.target.value)}
             />           
-          </Form.Group>
+          </form>
 
           
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Image Link:</Form.Label>
-            <Form.Control type="text" placeholder="Upload image here" 
+          <form className="mb-3" controlId="formBasicPassword">
+            <form>Image Link:</form>
+            <form type="text" placeholder="Upload image here" 
             value={main_image}
             onChange={event => setmain_image(event.target.value)}
             />
-          </Form.Group>
+          </form>
 
           
-          <button class = "btn btn-dark px-4 rounded-pill" type = "submit" >Register Product</button>
-        </Form>        
-        </Col>
-      </Row>
-    </Container>
-  </>
+          <a href="/productView"><button className = "register-button" type = "submit"> Register Product</button></a>
+     </form>
+  </div>
 )
-};
+}
 
 
 export default ProductAdd

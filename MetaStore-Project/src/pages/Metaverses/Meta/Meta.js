@@ -1,11 +1,10 @@
 import './Meta.css';
-import Card from '../../../components/Card/Card';
-import MetaCategories from './MetaCategories';
+
 
 export default function Meta() {
     return(
         <div className='meta-father'>
-            <div className='meta-title'>
+            <div className='meta-logo'>
                 <img src='https://logosmarcas.net/wp-content/uploads/2021/11/Meta-Symbolo.jpg' alt='meta-logo'></img>
                 <p>Meta</p>
             </div>
@@ -15,13 +14,11 @@ export default function Meta() {
                 <p>The Meta bets on augmented and virtual reality as the future of social networks.</p>
             </div>
 
-            <MetaCategories />
-
-            <label>Oculus</label>
-            <Card alt='Oculus' />
-            <label>Horizons Workroom</label>
-            <Card alt='Horizons Workroom' />
-            
+            <div className='meta-cat'>
+                <a className='meta-categories' href='/metaAssessories'>Assessories</a>
+                
+                <a className='meta-categories' href='/metaWorkRoom'>Work Room</a>   
+            </div>
 
 
         </div>
