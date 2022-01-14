@@ -8,7 +8,7 @@ export default function Modal3D() {
         <div className='center-modal3d'>
         <div className='modal3d-father'>
             <Card3D></Card3D>
-            <Button />
+            <button className='button-modal'>Voltar</button>
         </div>
         </div>
     )

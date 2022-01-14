@@ -7,6 +7,7 @@ import { RiEmotionUnhappyLine } from 'react-icons/ri';
 
 export default function SatisfactionSurvey() {
     return(
+        <div className='satisfaction-survey-center'>
         <div className='satisfaction-survey-father'>
             <div className='satisfaction-survey-title'>
                 <p>Congratulations on your new acquisition!</p>
@@ -33,6 +34,7 @@ export default function SatisfactionSurvey() {
                 <a href='/'>Back to home</a>
                 
             </div>
+        </div>
         </div>
     )
     

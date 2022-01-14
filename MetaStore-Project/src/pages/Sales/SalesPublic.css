@@ -1,0 +1,53 @@
+.sales-public-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.sales-public-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.sales-public-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button-public{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.sales-public-product{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 1rem;
+}
+
+.center-h5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+}

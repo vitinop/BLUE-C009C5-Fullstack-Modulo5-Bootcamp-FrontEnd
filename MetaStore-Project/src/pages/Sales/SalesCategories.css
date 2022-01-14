@@ -9,6 +9,10 @@
     margin-bottom: 2rem;
 }
 
+.sales-categories-title{
+    text-align: center;
+}
+
 .sales-button{
     margin-bottom: 1rem;
     width: 100%;
@@ -31,5 +35,7 @@
 
 .button-continues{
     background-color: #6869ad;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     width: 100%;
 }

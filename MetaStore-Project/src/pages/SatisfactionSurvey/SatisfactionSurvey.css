@@ -1,0 +1,25 @@
+.satisfaction-survey-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.satisfaction-survey-emoticon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.satisfaction-survey-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 1rem;
+}

@@ -12,8 +12,8 @@ export default function RecentSearch() {
             </div>
 
             <div className='center-search-list'>
+            <h4>You're looking for:</h4>
                 <div className='recent-search-list'>
-                    <h4>You're looking for:</h4>
                     <h5>Recent search:</h5>
 
                     <ul>
