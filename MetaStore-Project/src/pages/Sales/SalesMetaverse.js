@@ -1,5 +1,5 @@
 import './SalesMetaverse.css';
-import Relations from '../../components/Relations/Relations';
+
 
 export default function SalesMetaverse() {
     return(
@@ -9,8 +9,7 @@ export default function SalesMetaverse() {
             <h2>What metaverse does your product belong to?</h2>
         </div>
 
-        <Relations />
-
+       
     </div>
         
     </div>

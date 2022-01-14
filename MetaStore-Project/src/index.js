@@ -21,10 +21,10 @@ import SalesPrice from './pages/Sales/SalesPrice.js';
 import Myaccount from './pages/Myaccount/Myaccount.js';
 import Modal3D from './pages/Modal3D/Modal3D.js';
 import ItemSearch from './pages/Search/ItemSearch.js';
-import MetaversesRelations from './pages/Metaverses/MetaversesRelations';
+// import MetaversesRelations from './pages/Metaverses/MetaversesRelations';
 import CategoriesRelations from './pages/Categories/CategoriesRelations';
 import SubCategoriesRelations from './pages/SubCategories/SubCategoriesRelations';
-import MetaversesCatalog from './pages/Metaverses/MetaversesCatalog';
+// import MetaversesCatalog from './pages/Metaverses/MetaversesCatalog';
 import CategoriesCatalog from './pages/Categories/CategoriesCatalog';
 import SubCategoriesCatalog from './pages/SubCategories/SubCategoriesCatalog';
 import UserCatalog from './pages/UserCatalog/UserCatalog';
@@ -113,10 +113,10 @@ ReactDOM.render(
         <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
         <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
         <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
-        <Route path="/metaversesRelations" element={<MetaversesRelations />} />{/* revisar */}
+        {/* <Route path="/metaversesRelations" element={<MetaversesRelations />} /> */}
         <Route path="/categoriesRelations" element={<CategoriesRelations />} />{/* revisar */}
         <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />{/* revisar */}
-        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />{/* revisar */}
+        {/* <Route path="/metaversesCatalog" element={<MetaversesCatalog />} /> */}
         <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />{/* revisar */}
         <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
         <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}
@@ -135,10 +135,9 @@ ReactDOM.render(
         <Route path="/modal3d" element={<Modal3D />} />{/* revisar */}
         <Route path="/recentSearch" element={<RecentSearch />} />{/* revisar */}
         <Route path="/itemSearch" element={<ItemSearch />} />{/* revisar */}
-        <Route path="/metaversesRelations" element={<MetaversesRelations />} />{/* revisar */}
         <Route path="/categoriesRelations" element={<CategoriesRelations />} />{/* revisar */}
         <Route path="/subCategoriesRelations" element={<SubCategoriesRelations />} />{/* revisar */}
-        <Route path="/metaversesCatalog" element={<MetaversesCatalog />} />{/* revisar */}
+    
         <Route path="/categoriesCatalog" element={<CategoriesCatalog />} />{/* revisar */}
         <Route path="/subCategoriesCatalog" element={<SubCategoriesCatalog />} />{/* revisar */}
         <Route path="/userCatalog" element={<UserCatalog />} />{/* revisar */}

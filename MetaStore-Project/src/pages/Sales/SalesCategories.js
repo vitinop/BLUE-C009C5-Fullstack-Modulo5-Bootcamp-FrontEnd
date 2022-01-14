@@ -1,6 +1,6 @@
 import './SalesCategories.css';
 import { BsArrowUpCircle } from 'react-icons/bs';
-import Relations from '../../components/Relations/Relations';
+
 
 
 export default function SalesCategories() {
@@ -11,7 +11,6 @@ export default function SalesCategories() {
             <h2>Choose the category</h2>
         </div>
 
-        <Relations />
 
         &nbsp;<div className='sales-button'>
             <a href='/salesprice'>

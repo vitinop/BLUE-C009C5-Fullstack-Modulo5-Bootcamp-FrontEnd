@@ -1,5 +1,5 @@
 import './SubCategoriesRelations.css';
-import Relations from '../../components/Relations/Relations';
+
 import Button from '../../components/Button/Button';
 
 
@@ -7,7 +7,7 @@ export default function SubCategoriesRelations() {
     return(
         <div className='relations-subcategories-father'>
             <div className='relations-subcategories'>
-                <Relations />
+           
             </div>
 
             <Button />
