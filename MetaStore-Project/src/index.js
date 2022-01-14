@@ -76,7 +76,7 @@ import TheSandboxLand from './pages/Metaverses/TheSandbox/TheSandboxLand';
 import TheSandboxHouses from './pages/Metaverses/TheSandbox/TheSandboxHouses';
 import '@google/model-viewer';
 
-axios.defaults.baseURL = 'http://localhost:3000';
+axios.defaults.baseURL = 'http://localhost:3000/api';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
