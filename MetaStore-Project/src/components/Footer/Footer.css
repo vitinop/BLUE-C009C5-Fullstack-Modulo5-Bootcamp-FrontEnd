@@ -11,7 +11,7 @@
         width: 100%;
         position: fixed;
         bottom: 0;
-        background-color: #6869ad;
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(104,105,173,1) 50%, rgba(255,255,255,1) 100%);
     }
 
     .footer-icons {
@@ -21,7 +21,7 @@
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
-        margin: 1px 8px;
+        padding: 0.5rem;
 
     }
 
@@ -96,5 +96,12 @@
 }
 
 .send{
-    background-color: #6869ad;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
