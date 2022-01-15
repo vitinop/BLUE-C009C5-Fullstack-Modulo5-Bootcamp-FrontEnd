@@ -1,9 +1,6 @@
 import Slider from "../../components/Slider/Slider";
 import Card3Row from "../../components/Card3Row/Card3Row";
 import "./Home.css";
-import { FiFacebook } from "react-icons/fi";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
