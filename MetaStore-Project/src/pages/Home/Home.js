@@ -8,6 +8,8 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import Card3D from "../../components/Card3D/Card3D";
+import Card3D2 from "../../components/Card3D2/Card3D2";
+import Card3D3 from "../../components/Card3D3/Card3D3";
 import Container from '../../components/Container/Container';
 
 
@@ -56,14 +58,14 @@ export default function Home() {
 
           <div className="card3d-home">
             <Card3D></Card3D>
-            <Card3D></Card3D>
-            <Card3D></Card3D>
-            <Card3D></Card3D>
+            <Card3D2></Card3D2>
+            <Card3D3></Card3D3>
+            <Card3D2></Card3D2>
           </div>
           <div className="card3d-home">
-            <Card3D></Card3D>
-            <Card3D></Card3D>
-            <Card3D></Card3D>
+            <Card3D2></Card3D2>
+            <Card3D3></Card3D3>
+            <Card3D2></Card3D2>
             <Card3D></Card3D>
           </div>
     </div>
