@@ -38,10 +38,7 @@ export default function Home() {
       <Slider>
         <Card3Row />
       </Slider>
-        
       
-      <a href='/metaverseconcept' className="what-is">What is the metaverse?</a>
-
       <Container title='Most relevant to you'>
             
             {
@@ -64,17 +61,6 @@ export default function Home() {
             <Card3D></Card3D>
             <Card3D></Card3D>
           </div>
-
-      
-      <span className="span-home">Direitos autorais MetaStore - 2021 </span>
-
-      
-      <div className="home-midias">
-        <FiFacebook />&nbsp;
-        <FaInstagram />&nbsp;
-        <MdOutlineEmail />&nbsp;
-        <FaWhatsapp />&nbsp;
-      </div>
 
     </div>
   );

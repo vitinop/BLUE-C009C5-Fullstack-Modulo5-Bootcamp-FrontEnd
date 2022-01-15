@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="footer-father">
       <div className="footer-icons">
 
-        <div className="home-icon">
+        <div className="icon">
           <a href="/">
             <button className="send" type="submit">
               <AiOutlineHome />
@@ -19,7 +19,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="search-icon">
+        <div className="icon">
           <a href="/search">
             <button className="send" type="submit">
               <FiSearch />
@@ -30,7 +30,7 @@ export default function Footer() {
 
         
 
-        <div className="sell-icon">
+        <div className="icon">
           <a href="/salesdescription">
               <button className="send" type="submit">
                 <VscTag />
@@ -39,7 +39,7 @@ export default function Footer() {
             </a>
         </div>
 
-        <div className="bag-icon">
+        <div className="icon">
           <a href="/">
             <button className="send" type="submit">
               <BsHandbag />
@@ -48,7 +48,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="profile-icon">
+        <div className="icon">
           <a href="/myaccount">
             <button className="send" type="submit">
               <CgProfile />

@@ -30,10 +30,10 @@ const Ul = styled.ul`
 const LeftNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li><a className="nav-Links" href="/" id="to-Home" aria-label="Home">Home</a></li>
-      <li><a className="nav-Links" href="/catalog" id="to-Catalog" aria-label="Catalog">Catalog</a></li>
-      <li><a className="nav-Links" href="/Login" id="to-Login" aria-label="Login">Login</a></li>
-      <li><a className="nav-Links" href="/createAccount" id="to-Catalog" aria-label="CreateAccount">Sign Up</a></li>
+      <li><a clasName="nav-Links" href="/" id="to-Home" aria-label="Home">Home</a></li>
+      <li><a clasName="nav-Links" href="/catalog" id="to-Catalog" aria-label="Catalog">Catalog</a></li>
+      <li><a clasName="nav-Links" href="/Login" id="to-Login" aria-label="Login">Login</a></li>
+      <li><a clasName="nav-Links" href="/createAccount" id="to-Catalog" aria-label="CreateAccount">Sign Up</a></li>
       <li>Contact Us</li>
     </Ul>
   )
