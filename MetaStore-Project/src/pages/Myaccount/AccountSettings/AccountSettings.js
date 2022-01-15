@@ -17,7 +17,7 @@ export default function AccountSettings() {
           </div>
           <p>E-mail:</p>
           <div className="input-field-accountSettings">
-            <input
+            <input 
               type="email"
               name="e-mail"
               id="e-mail"

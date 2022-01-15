@@ -20,13 +20,13 @@ export default function Myaccount() {
         </div>
         <div className="profileInformation">
           Hi,User!
-          <div className="container-Showcase">
+          {/* <div className="container-Showcase">
             <a href="/myaccount/personal-data">
               <li> Seller's Showcase </li>{" "}
             </a>
             &nbsp;
             <FaRegUser />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -37,29 +37,30 @@ export default function Myaccount() {
         <FaRegUser />
       </div>
       <div className="container-userOptions">
-        <a href="/myaccount/wallet">
+        
           <li>Wallet </li>{" "}
-        </a>
+     
         <BsWallet />
       </div>
-      <div className="container-userOptions">
+      {/* <div className="container-userOptions">
         <li>My Sells </li> <BiDollar />
-      </div>
-      <div className="container-userOptions">
+      </div> */}
+      {/* <div className="container-userOptions">
         <li>My Purchases</li> <BiPurchaseTag />
-      </div>
-      <div className="container-userOptions">
+      </div> */}
+      {/* <div className="container-userOptions">
         <li>My Ads</li> <AiOutlineNotification />
-      </div>
+      </div> */}
       <div className="container-userOptions">
         <li>Favorite Itens</li> <BiHeart />
       </div>
-      <div className="container-userOptions">
+      {/* <div className="container-userOptions">
         <a href="/invitefriends">
           <li>Invite friends</li>{" "}
         </a>
         <AiOutlineUsergroupAdd />
-      </div>
+      </div> */}
+      
       <div className="container-userOptions">
         <a href="/myaccount/accountsettings">
           <li>Account settings</li>
