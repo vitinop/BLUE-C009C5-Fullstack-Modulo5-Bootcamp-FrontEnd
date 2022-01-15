@@ -17,6 +17,7 @@ import Payment from './pages/Payment/Payment';
 import ProductAdd from './pages/ProductAdd/ProductAdd';
 import BarSearch from './components/BarSearch/BarSearch';
 import Cart from './pages/Cart/Cart';
+import Catalog from './pages/Catalog/Catalog';
 import axios from "axios";
 import '@google/model-viewer';
 
@@ -30,21 +31,21 @@ ReactDOM.render(
   
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} /> {/* revisar */}
+        <Route path="/" element={<Home />} /> {/* revisado */}
         <Route path="/login" element={<Login />} />
       
-        <Route path="/createAccount" element={<CreateAccount />} />
-        <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisar */}
-        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />
-        <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisar */}
-        <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisar */}
-        <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisar */}
-        <Route path="/myaccount" element={<Myaccount />} />{/* revisar */}
-        <Route path="/payment" element={<Payment />} />{/* revisar */}
-        <Route path="/productAdd" element={<ProductAdd />} />{/* revisar */}
-        <Route path="/cart" element={<Cart />} />{/* revisar */}
-        <Route path="/payment" element={<Payment />} />{/* revisar */}
-        
+        <Route path="/createAccount" element={<CreateAccount />} />{/* revisado */}
+        <Route path="/passwordrecovery" element={<PasswordRecovery />} /> {/* revisado */}
+        <Route path="/passwordrecovery/checkout" element={<PasswordRecoveryCheckout />} />{/* revisado */}
+        <Route path="/myaccount/authorizedchangepassword" element={<PasswordRecoveryAuthorizedChange />} />{/* revisado */}
+        <Route path="/myaccount/changePassword" element={<PasswordChangePassword />} />{/* revisado */}
+        <Route path="/myaccount/accountsettings" element={<AccountSettings />} />{/* revisado */}
+        <Route path="/myaccount" element={<Myaccount />} />{/* revisado */}
+        <Route path="/payment" element={<Payment />} />{/* revisado */}
+        <Route path="/productAdd" element={<ProductAdd />} />{/* revisado */}
+        <Route path="/cart" element={<Cart />} />{/* revisado */}
+        <Route path="/payment" element={<Payment />} />{/* revisado */}
+        <Route path="/catalog" element={<Catalog />} />{/* revisado */}
       </Routes>
     </BrowserRouter>
     <Footer />

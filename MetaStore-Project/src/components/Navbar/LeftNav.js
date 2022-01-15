@@ -34,7 +34,7 @@ const LeftNav = ({ open }) => {
       <li><a clasName="nav-Links" href="/catalog" id="to-Catalog" aria-label="Catalog">Catalog</a></li>
       <li><a clasName="nav-Links" href="/Login" id="to-Login" aria-label="Login">Login</a></li>
       <li><a clasName="nav-Links" href="/createAccount" id="to-Catalog" aria-label="CreateAccount">Sign Up</a></li>
-      <li>Contact Us</li>
+      <li><a clasName="nav-Links" href="/myaccount" id="to-Account" aria-label="Account">My Account</a></li>
     </Ul>
   )
 }

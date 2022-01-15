@@ -30,10 +30,10 @@ export default function Slider(props){
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src="https://nftplazas.com/wp-content/uploads/2021/08/metaverse-future-1280x720.jpg" class="d-block w-100" alt="..."></img>
+                        <img src="https://www.xrtoday.com/wp-content/uploads/2021/11/When_Will_Metaverse_Be_Here-1280x720.jpg" class="d-block w-100" alt="..."></img>
                         </div>
                         <div className="carousel-item">
-                        <img src="https://static.news.bitcoin.com/wp-content/uploads/2021/11/shutterstock_1982607317.jpg"class="d-block w-100" alt="..."></img>
+                        <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2021/11/metaverse-marketing-619d04870a8c8-sej-1280x720.png"class="d-block w-100" alt="..."></img>
                         </div>
                         <div className="carousel-item">
                         <img src="https://static.news.bitcoin.com/wp-content/uploads/2021/11/shutterstock_1982607317.jpg" class="d-block w-100" alt="..."></img>
@@ -48,6 +48,7 @@ export default function Slider(props){
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
+                <h6>(custom Slider for every Metaverse)</h6>
         </div>
         </div>
 
