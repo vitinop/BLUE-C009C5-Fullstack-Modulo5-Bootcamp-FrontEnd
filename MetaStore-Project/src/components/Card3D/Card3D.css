@@ -19,6 +19,5 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
 }

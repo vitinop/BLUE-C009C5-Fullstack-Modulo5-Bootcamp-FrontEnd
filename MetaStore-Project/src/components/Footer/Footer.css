@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.center-footer{
+    padding-top: 3rem;
+}
+
 @media (min-width: 768px) {
     .footer-father
     {
