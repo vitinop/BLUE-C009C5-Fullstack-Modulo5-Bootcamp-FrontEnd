@@ -7,6 +7,7 @@ import { CgProfile } from "react-icons/cg";
 
 export default function Footer() {
   return (
+    <div className="center-footer">
     <div className="footer-father">
       <div className="footer-icons">
 
@@ -53,6 +54,7 @@ export default function Footer() {
         </div>
 
       </div>
+    </div>
     </div>
   );
 }

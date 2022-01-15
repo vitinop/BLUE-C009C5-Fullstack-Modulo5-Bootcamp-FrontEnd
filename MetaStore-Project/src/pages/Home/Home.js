@@ -38,8 +38,8 @@ export default function Home() {
       <Slider>
         <Card3Row />
       </Slider>
-      
-      <Container title='Most relevant to you'>
+
+      <h3 className="h3line"><pre>  Examples of 3d models  </pre></h3>
             
             {
             products.map(product => (
@@ -53,7 +53,6 @@ export default function Home() {
             />
             ))
         }
-            </Container>
 
           <div className="card3d-home">
             <Card3D></Card3D>
@@ -61,7 +60,12 @@ export default function Home() {
             <Card3D></Card3D>
             <Card3D></Card3D>
           </div>
-
+          <div className="card3d-home">
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+            <Card3D></Card3D>
+          </div>
     </div>
   );
 }
