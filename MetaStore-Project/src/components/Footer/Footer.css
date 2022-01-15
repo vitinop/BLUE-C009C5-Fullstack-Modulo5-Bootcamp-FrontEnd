@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-@media (min-width:  px) {
+@media (min-width: 768px) {
     .footer-father
     {
         visibility:hidden;
