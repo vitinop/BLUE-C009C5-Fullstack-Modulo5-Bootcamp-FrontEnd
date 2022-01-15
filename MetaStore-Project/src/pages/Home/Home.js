@@ -7,8 +7,8 @@ import { MdOutlineEmail } from "react-icons/md";
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
-import Container from '../../components/Container/Container';
 import Card3D from "../../components/Card3D/Card3D";
+import Container from '../../components/Container/Container';
 
 
 export default function Home() {
