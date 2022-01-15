@@ -20,13 +20,13 @@ export default function Myaccount() {
         </div>
         <div className="profileInformation">
           Hi,User!
-          <div className="container-Showcase">
-            <a href="/myaccount/personal-data">
-              <li> Seller's Showcase </li>{" "}
-            </a>
-            &nbsp;
-            <FaRegUser />
-          </div>
+            <div className="container-Showcase">
+              <a href="/myaccount/personal-data">
+                <li> Seller's Showcase </li>{" "}
+              </a>
+              &nbsp;
+              <FaRegUser />
+            </div>
         </div>
       </div>
 
