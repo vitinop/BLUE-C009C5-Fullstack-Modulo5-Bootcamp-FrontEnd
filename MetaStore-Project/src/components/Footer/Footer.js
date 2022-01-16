@@ -29,7 +29,7 @@ export default function Footer() {
         
 
         <div className="icon">
-          <a href="/salesdescription">
+          <a href="/sellitem">
               <button className="send" type="submit">
                 <span><VscTag /></span>
               </button>
