@@ -26,7 +26,6 @@ export default function Footer() {
             </button>
           </a>
         </div>
-
         
 
         <div className="icon">
