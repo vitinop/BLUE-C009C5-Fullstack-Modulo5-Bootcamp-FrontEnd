@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="icon">
-          <a href="/">
+          <a href="/cart">
             <button className="send" type="submit">
               <span><BsHandbag /></span>
             </button>

@@ -119,7 +119,7 @@
     background-color: white;
     flex-direction: column;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.1rem;
     border-radius: 0.5rem;
 }
 
@@ -140,7 +140,7 @@
   }
   
   .send:hover span {
-    padding-right: 25px;
+    padding-right: 20px;
   }
   
   .send:hover span:after {
