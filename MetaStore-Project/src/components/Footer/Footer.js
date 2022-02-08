@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
         </div>
         
-
+aaaa
         <div className="icon">
           <a href="/sellitem">
               <button className="send" type="submit">
